@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="100.215" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0071221" y="-0.0545885" z="-0.014448" />
+      <bbMax x="0.25334" y="0.059423" z="0.0172808" />
+      <bsCentre x="0.123109" y="0.00241725" z="0.0014164" />
+      <bsRadius value="0.143044" />
+      <hdTextureDist value="75.1609" />
+      <name>metal_claws</name>
+      <textureDictionary>metal_claws</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>metal_claws</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>metal_claws</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

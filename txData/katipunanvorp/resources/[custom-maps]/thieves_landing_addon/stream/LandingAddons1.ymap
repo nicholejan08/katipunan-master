@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1765.696777" y="-2726.822266" z="-360.549999"/>
+	<streamingExtentsMax x="-960.150757" y="-1868.454346" z="446.920067"/>
+	<entitiesExtentsMin x="-1365.696777" y="-2326.822266" z="39.450001"/>
+	<entitiesExtentsMax x="-1360.150757" y="-2268.454346" z="46.920067"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>s_new_boats_crane</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1360.150757" y="-2326.822266" z="46.920067"/>
+			<rotation w="0.613080" x="-0.000000" y="0.000000" z="0.790021"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_boatlrg01x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1365.696777" y="-2268.454346" z="39.450001"/>
+			<rotation w="0.374604" x="0.000000" y="-0.000000" z="-0.927185"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

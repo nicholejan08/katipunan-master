@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.2466000" y="-0.0698000" z="-0.3044000" />
+      <bbMax x="0.2374000" y="0.0538000" z="0.2666000" />
+      <bsCentre x="-0.0046000" y="-0.0080000" z="-0.0189000" />
+      <bsRadius value="0.379333" />
+      <hdTextureDist value="100.0"/>
+      <name>nic_capshield_w</name>
+      <textureDictionary>nic_capshield_w</textureDictionary>
+      <physicsDictionary>nic_capshield_w</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>nic_capshield_w</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>nic_capshield_w</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

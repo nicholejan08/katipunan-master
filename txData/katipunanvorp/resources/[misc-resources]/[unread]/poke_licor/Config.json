@@ -1,0 +1,71 @@
+{
+  "defaultlang": "En",
+
+  "drunkTime": 120, //Drunk time in seconds
+
+  "ItemsToUse": [
+    {
+      "Name": "consumable_redhorse",
+      "Label": "Red Horse",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "s_champbottle01x",
+      "propId": "p_bottleJD01x_ph_r_hand", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-3_H30-5_Neck_A13_B2-5_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    },
+    {
+      "Name": "consumable_gin",
+      "Label": "Gin",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "s_wineglass01x_red",
+      "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    },
+    {
+      "Name": "consumable_alak",
+      "Label": "Alak",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "p_bottlebeer02x",
+      "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    },
+    {
+      "Name": "consumable_beer",
+      "Label": "Gin",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "p_bottlechampagne01x",
+      "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    },
+    {
+      "Name": "consumable_wine",
+      "Label": "Gin",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "p_bottlecognac01x",
+      "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    },
+    {
+      "Name": "consumable_longneck",
+      "Label": "Gin",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "p_bottle008x_big",
+      "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    },
+    {
+      "Name": "consumable_brandy",
+      "Label": "Gin",
+      "CoreType": 0, // -1 To disable core
+      "ObjectModel": "p_bottlebrandy01x",
+      "propId": "p_bottleBeer01x_PH_R_HAND", // You need iteminteractioninfo.meta file
+      "itemInteraction": "DRINK_BOTTLE@Bottle_Cylinder_D1-55_H18_Neck_A8_B1-8_TABLE_HOLD", // You need iteminteractioninfo.meta file
+      "AnimFxType": "PlayerDrunk01"
+    }
+  ]
+}

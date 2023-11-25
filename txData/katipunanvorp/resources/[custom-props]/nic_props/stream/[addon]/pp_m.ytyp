@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500.00000000"/>
+      <flags value="32" />
+      <loadFlags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0353000" y="-0.0600000" z="-0.0892000" />
+      <bbMax x="0.0353000" y="0.0615000" z="0.0571000" />
+      <bsCentre x="0.0000000" y="0.0007500" z="-0.0160500" />
+      <bsRadius value="0.101428" />
+      <hdTextureDist value="100.0"/>
+      <name>pp_m</name>
+      <textureDictionary>pp_m</textureDictionary>
+      <physicsDictionary />
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pp_m</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>pp_m</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "NeonSniper",
+    "master": true,
+    "password_hash": "$2a$11$UYf5TVQb2hnxqrroXIedsO3KQkDHF83cN3iUHWeGG5dLC5hbQrdTG",
+    "providers": {
+      "citizenfx": {
+        "id": "NeonSniper",
+        "identifier": "fivem:1449671",
+        "data": {
+          "sub": "f17943107f0d54a903c90ba5674dba53",
+          "nameid": "https://forum.cfx.re/internal/user/1449671",
+          "name": "NeonSniper",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/neonsniper/256/2003804_2.png",
+          "profile": "https://forum.cfx.re/u/NeonSniper"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "KCFudge",
+    "master": false,
+    "password_hash": "$2a$11$WgQ/0lSYMdFp7JKMzPIYlewpjdPfe9cOK7pwrZLKuVawg1x6xM94O",
+    "password_temporary": true,
+    "providers": {
+      "citizenfx": {
+        "id": "KCFudge",
+        "identifier": "fivem:950365",
+        "data": {}
+      },
+      "discord": {
+        "id": "396996006471925760",
+        "identifier": "discord:396996006471925760",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "Kim",
+    "master": false,
+    "password_hash": "$2a$11$fFlFmqjN88YbYnKKfH5ux.59v/qDcH6D6KdOWRxXJeypFC3PvcT/.",
+    "password_temporary": true,
+    "providers": {
+      "citizenfx": {
+        "id": "kimlaicram",
+        "identifier": "fivem:5902334",
+        "data": {}
+      },
+      "discord": {
+        "id": "403603040826818581",
+        "identifier": "discord:403603040826818581",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "Nic",
+    "master": false,
+    "password_hash": "$2a$11$7Q2mpjneFYojGwrnCExCHuWFqoMuzaxVfCbMaCTLafWlhsTmUQ3OG",
+    "password_temporary": true,
+    "providers": {
+      "citizenfx": {
+        "id": "Nic",
+        "identifier": "fivem:4973",
+        "data": {}
+      },
+      "discord": {
+        "id": "505676908449497099",
+        "identifier": "discord:505676908449497099",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "Batang",
+    "master": false,
+    "password_hash": "$2a$11$bKPp.qEUKmWUvcm/Aa19UulPjJTAyBQTYCiMP0XpMHj8pqKY9pjHC",
+    "password_temporary": true,
+    "providers": {
+      "discord": {
+        "id": "721229781797961789",
+        "identifier": "discord:721229781797961789",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

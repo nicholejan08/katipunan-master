@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html onmousedown="rightClick(event)">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="./listener.js" type="text/javascript"></script>
+    </head>
+    <audio id="myAudio">
+        <source src="click.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    <body>
+        <img src="../../../[vorp]/vorp_inventory/html/img/items/sbob.png" alt="">
+        <div class="assorted">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+
+                <button class="item canteen" style="background-image: url(items/canteen.jpg);">
+                    <span class="price">
+                        ₱5.00
+                    </span>
+                </button>
+
+                <button class="item coffee" style="background-image: url(items/coffee.jpg);">
+                    <span class="price">
+                        ₱8.00
+                    </span>
+                </button>
+                <button class="item apple" style="background-image: url(items/apple.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item tango" style="background-image: url(items/tango.jpg);">
+                    <span class="price">
+                        ₱12.00
+                    </span>
+                </button>
+                <button class="item pear" style="background-image: url(items/pear.jpg);">
+                    <span class="price">
+                        ₱12.50
+                    </span>
+                </button>
+                <button class="item banana" style="background-image: url(items/banana.jpg);">
+                    <span class="price">
+                        ₱6.50
+                    </span>
+                </button>
+                <button class="item pandesal" style="background-image: url(items/pandesal.jpg);">
+                    <span class="price">
+                        ₱2.00
+                    </span>
+                </button>
+                <button class="item cheese_sm" style="background-image: url(items/cheese_sm.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item cigar" style="background-image: url(items/cigar.jpg);">
+                    <span class="price">
+                        ₱12.00
+                    </span>
+                </button>
+                <button class="item cigarette" style="background-image: url(items/cigarette.jpg);">
+                    <span class="price">
+                        ₱5.00
+                    </span>
+                </button>
+                <button class="item canned_sardines" style="background-image: url(items/canned_sardines.jpg);">
+                    <span class="price">
+                        ₱12.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="bakery">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item pandesal" style="background-image: url(items/pandesal.jpg);">
+                    <span class="price">
+                        ₱2.00
+                    </span>
+                </button>
+                <button class="item pandecoco" style="background-image: url(items/pandecoco.jpg);">
+                    <span class="price">
+                        ₱3.00
+                    </span>
+                </button>
+                <button class="item spanishbread" style="background-image: url(items/spanishbread.jpg);">
+                    <span class="price">
+                        ₱10.00
+                    </span>
+                </button>
+                <button class="item monay" style="background-image: url(items/monay.jpg);">
+                    <span class="price">
+                        ₱5.00
+                    </span>
+                </button>
+                <button class="item ensaymada" style="background-image: url(items/ensaymada.jpg);">
+                    <span class="price">
+                        ₱5.00
+                    </span>
+                </button>
+                <button class="item hopia" style="background-image: url(items/hopia.jpg);">
+                    <span class="price">
+                        ₱3.00
+                    </span>
+                </button>
+                <button class="item pan_de_manila" style="background-image: url(items/pan_de_manila.jpg);">
+                    <span class="price">
+                        ₱20.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="fruits">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item banana" style="background-image: url(items/banana.jpg);">
+                    <span class="price">
+                        ₱6.50
+                    </span>
+                </button>
+                <button class="item apple" style="background-image: url(items/apple.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item pear" style="background-image: url(items/pear.jpg);">
+                    <span class="price">
+                        ₱12.50
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="market">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item porkstew_recipe" style="background-image: url(items/porkstew_recipe.jpg);">
+                    <span class="price">
+                        ₱50.00
+                    </span>
+                </button>
+                <button class="item beefstew_recipe" style="background-image: url(items/beefstew_recipe.jpg);">
+                    <span class="price">
+                        ₱50.00
+                    </span>
+                </button>
+                <button class="item sugar_pack" style="background-image: url(items/sugar_pack.jpg);">
+                    <span class="price">
+                        ₱18.5
+                    </span>
+                </button>
+                <button class="item pig_liver" style="background-image: url(items/pig_liver.jpg);">
+                    <span class="price">
+                        ₱30.5
+                    </span>
+                </button>
+                <button class="item pork" style="background-image: url(items/pork.jpg);">
+                    <span class="price">
+                        ₱200.0
+                    </span>
+                </button>
+                <button class="item raw_chicken" style="background-image: url(items/raw_chicken.jpg);">
+                    <span class="price">
+                        ₱180.0
+                    </span>
+                </button>
+                <button class="item black_pepper" style="background-image: url(items/black_pepper.jpg);">
+                    <span class="price">
+                        ₱1.5
+                    </span>
+                </button>
+                <button class="item tomato_sauce" style="background-image: url(items/tomato_sauce.jpg);">
+                    <span class="price">
+                        ₱20.0
+                    </span>
+                </button>
+                <button class="item hotdog" style="background-image: url(items/hotdog.jpg);">
+                    <span class="price">
+                        ₱10.0
+                    </span>
+                </button>
+                <button class="item green_peas" style="background-image: url(items/green_peas.jpg);">
+                    <span class="price">
+                        ₱8.5
+                    </span>
+                </button>
+                <button class="item vetsin" style="background-image: url(items/vetsin.jpg);">
+                    <span class="price">
+                        ₱1.5
+                    </span>
+                </button>
+                <button class="item fish_sauce" style="background-image: url(items/fish_sauce.jpg);">
+                    <span class="price">
+                        ₱4.5
+                    </span>
+                </button>
+                <button class="item salt" style="background-image: url(items/salt.jpg);">
+                    <span class="price">
+                        ₱3.0
+                    </span>
+                </button>
+                <button class="item egg" style="background-image: url(items/egg.jpg);">
+                    <span class="price">
+                        ₱5.0
+                    </span>
+                </button>
+                <button class="item green_chilli" style="background-image: url(items/green_chilli.jpg);">
+                    <span class="price">
+                        ₱5.5
+                    </span>
+                </button>
+                <button class="item bay_leaf" style="background-image: url(items/bay_leaf.jpg);">
+                    <span class="price">
+                        ₱2.5
+                    </span>
+                </button>
+                <button class="item cooking_oil" style="background-image: url(items/cooking_oil.jpg);">
+                    <span class="price">
+                        ₱20.5
+                    </span>
+                </button>
+                <button class="item soy_sauce" style="background-image: url(items/soy_sauce.jpg);">
+                    <span class="price">
+                        ₱5.5
+                    </span>
+                </button>
+                <button class="item vinegar" style="background-image: url(items/vinegar.jpg);">
+                    <span class="price">
+                        ₱5.5
+                    </span>
+                </button>
+                <button class="item potato" style="background-image: url(items/potato.jpg);">
+                    <span class="price">
+                        ₱10.5
+                    </span>
+                </button>
+                <button class="item pepper" style="background-image: url(items/pepper.jpg);">
+                    <span class="price">
+                        ₱1.5
+                    </span>
+                </button>
+                <button class="item ginger" style="background-image: url(items/ginger.jpg);">
+                    <span class="price">
+                        ₱3.0
+                    </span>
+                </button>
+                <button class="item onion" style="background-image: url(items/onion.jpg);">
+                    <span class="price">
+                        ₱2.3
+                    </span>
+                </button>
+                <button class="item garlic" style="background-image: url(items/garlic.jpg);">
+                    <span class="price">
+                        ₱3.5
+                    </span>
+                </button>
+                <button class="item bell_pepper" style="background-image: url(items/bell_pepper.jpg);">
+                    <span class="price">
+                        ₱8.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="tools">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item flint_steel" style="background-image: url(items/flint_steel.jpg);">
+                    <span class="price">
+                        ₱8.50
+                    </span>
+                </button>
+                <button class="item cleanshort" style="background-image: url(items/cleanshort.jpg);">
+                    <span class="price">
+                        ₱28.60
+                    </span>
+                </button>
+                <button class="item fishbait" style="background-image: url(items/fishbait.jpg);">
+                    <span class="price">
+                        ₱13.00
+                    </span>
+                </button>
+                <button class="item reticle" style="background-image: url(items/reticle.jpg);">
+                    <span class="price">
+                        ₱82.50
+                    </span>
+                </button>
+                <button class="item jump_boots" style="background-image: url(items/speed_boots.jpg);">
+                    <span class="price">
+                        ₱278.00
+                    </span>
+                </button>
+                <button class="item plywood" style="background-image: url(items/plywood.jpg);">
+                    <span class="price">
+                        ₱15.50
+                    </span>
+                </button>
+                <button class="item flag" style="background-image: url(items/flag.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item helmet" style="background-image: url(items/helmet.jpg);">
+                    <span class="price">
+                        ₱146.12
+                    </span>
+                </button>
+                <button class="item juggernaut" style="background-image: url(items/juggernaut.jpg);">
+                    <span class="price">
+                        ₱326.50
+                    </span>
+                </button>
+                <button class="item pot" style="background-image: url(items/pot.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item wateringcan" style="background-image: url(items/wateringcan.jpg);">
+                    <span class="price">
+                        ₱18.50
+                    </span>
+                </button>
+                <button class="item lockpick" style="background-image: url(items/lockpick.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item sticky_bomb" style="background-image: url(items/sticky_bomb.jpg);">
+                    <span class="price">
+                        ₱54.50
+                    </span>
+                </button>
+                <button class="item invi_potion" style="background-image: url(items/invi_potion.jpg);">
+                    <span class="price">
+                        ₱312.50
+                    </span>
+                </button>
+                <button class="item townportal" style="background-image: url(items/townportal.jpg);">
+                    <span class="price">
+                        ₱135.00
+                    </span>
+                </button>
+                <button class="item jump_potion" style="background-image: url(items/jump_potion.jpg);">
+                    <span class="price">
+                        ₱820.50
+                    </span>
+                </button>
+                <button class="item axe" style="background-image: url(items/axe.jpg);">
+                    <span class="price">
+                        ₱340.50
+                    </span>
+                </button>
+                <button class="item shovel" style="background-image: url(items/shovel.jpg);">
+                    <span class="price">
+                        ₱250.00
+                    </span>
+                </button>
+                <button class="item sack" style="background-image: url(items/sack.jpg);">
+                    <span class="price">
+                        ₱35.00
+                    </span>
+                </button>
+                <button class="item newspaper" style="background-image: url(items/newspaper.jpg);">
+                    <span class="price">
+                        ₱5.00
+                    </span>
+                </button>
+                <button class="item ladder" style="background-image: url(items/ladder.jpg);">
+                    <span class="price">
+                        ₱65.00
+                    </span>
+                </button>
+                <button class="item camera" style="background-image: url(items/camera.jpg);">
+                    <span class="price">
+                        ₱216.00
+                    </span>
+                </button>
+                <button class="item film" style="background-image: url(items/film.jpg);">
+                    <span class="price">
+                        ₱1.50
+                    </span>
+                </button>
+                <button class="item pickaxe" style="background-image: url(items/pickaxe.jpg);">
+                    <span class="price">
+                        ₱132.50
+                    </span>
+                </button>
+                <button class="item wilson" style="background-image: url(items/wilson.jpg);">
+                    <span class="price">
+                        ₱785.50
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="tents">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item tentA1" style="background-image: url(items/tentA1.jpg);">
+                    <span class="price">
+                        ₱125.00
+                    </span>
+                </button>
+                <button class="item tentA2" style="background-image: url(items/tentA2.jpg);">
+                    <span class="price">
+                        ₱112.00
+                    </span>
+                </button>
+                <button class="item tentA3" style="background-image: url(items/tentA3.jpg);">
+                    <span class="price">
+                        ₱105.00
+                    </span>
+                </button>
+                <button class="item tentA4" style="background-image: url(items/tentA4.jpg);">
+                    <span class="price">
+                        ₱115.00
+                    </span>
+                </button>
+                <button class="item tentB1" style="background-image: url(items/tentB1.jpg);">
+                    <span class="price">
+                        ₱32.00
+                    </span>
+                </button>
+                <button class="item tentB2" style="background-image: url(items/tentB2.jpg);">
+                    <span class="price">
+                        ₱35.00
+                    </span>
+                </button>
+                <button class="item tentB3" style="background-image: url(items/tentB3.jpg);">
+                    <span class="price">
+                        ₱32.00
+                    </span>
+                </button>
+                <button class="item tentC1" style="background-image: url(items/tentC1.jpg);">
+                    <span class="price">
+                        ₱12.00
+                    </span>
+                </button>
+                <button class="item tentC2" style="background-image: url(items/tentC2.jpg);">
+                    <span class="price">
+                        ₱15.00
+                    </span>
+                </button>
+                <button class="item tentC3" style="background-image: url(items/tentC3.jpg);">
+                    <span class="price">
+                        ₱22.00
+                    </span>
+                </button>
+                <button class="item tentC4" style="background-image: url(items/tentC4.jpg);">
+                    <span class="price">
+                        ₱20.00
+                    </span>
+                </button>
+                <button class="item tentC5" style="background-image: url(items/tentC5.jpg);">
+                    <span class="price">
+                        ₱12.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="clinic">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item firstaid" style="background-image: url(items/firstaid.jpg);">
+                    <span class="price">
+                        ₱12.50
+                    </span>
+                </button>
+                <button class="item firstaid-s" style="background-image: url(items/firstaid-s.jpg);">
+                    <span class="price">
+                        ₱50.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="liquor">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item wine" style="background-image: url(items/wine.jpg);">
+                    <span class="price">
+                        ₱85.00
+                    </span>
+                </button>
+                <button class="item beer" style="background-image: url(items/beer.jpg);">
+                    <span class="price">
+                        ₱60.50
+                    </span>
+                </button>
+                <button class="item vodka" style="background-image: url(items/vodka.jpg);">
+                    <span class="price">
+                        ₱55.00
+                    </span>
+                </button>
+                <button class="item brandy" style="background-image: url(items/brandy.jpg);">
+                    <span class="price">
+                        ₱80.50
+                    </span>
+                </button>
+                <button class="item longneck" style="background-image: url(items/longneck.jpg);">
+                    <span class="price">
+                        ₱65.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="planting">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item riceseed" style="background-image: url(items/riceseed.jpg);">
+                    <span class="price">
+                        ₱12.00
+                    </span>
+                </button>
+                <button class="item cornseed" style="background-image: url(items/cornseed.jpg);">
+                    <span class="price">
+                        ₱15.50
+                    </span>
+                </button>
+                <button class="item sugarcane" style="background-image: url(items/sugarcane.jpg);">
+                    <span class="price">
+                        ₱16.00
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="horse_items">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item horsebrush" style="background-image: url(items/horsebrush.jpg);">
+                    <span class="price">
+                        FREE
+                    </span>
+                </button>
+                <button class="item haycube" style="background-image: url(items/haycube.jpg);">
+                    <span class="price">
+                        ₱8.50
+                    </span>
+                </button>
+                <button class="item carrot" style="background-image: url(items/carrot.jpg);">
+                    <span class="price">
+                        ₱7.00
+                    </span>
+                </button>
+                <button class="item horse_stim" style="background-image: url(items/horse_stim.jpg);">
+                    <span class="price">
+                        ₱36.50
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="weapons">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item weapon_lasso" style="background-image: url(items/weapon_lasso.jpg);">
+                    <span class="price">
+                        ₱36.50
+                    </span>
+                </button>
+                <button class="item weapon_fishingrod" style="background-image: url(items/weapon_fishingrod.jpg);">
+                    <span class="price">
+                        ₱45.50
+                    </span>
+                </button>
+                <button class="item weapon_kit_binoculars" style="background-image: url(items/weapon_kit_binoculars.jpg);">
+                    <span class="price">
+                        ₱88.50
+                    </span>
+                </button>
+                <button class="item weapon_melee_hammer" style="background-image: url(items/weapon_melee_hammer.jpg);">
+                    <span class="price">
+                        ₱12.50
+                    </span>
+                </button>
+                <button class="item weapon_melee_knife" style="background-image: url(items/weapon_melee_knife.jpg);">
+                    <span class="price">
+                        ₱27.50
+                    </span>
+                </button>
+                <button class="item weapon_melee_lantern" style="background-image: url(items/weapon_melee_lantern.jpg);">
+                    <span class="price">
+                        ₱18.50
+                    </span>
+                </button>
+                <button class="item weapon_melee_machete" style="background-image: url(items/weapon_melee_machete.jpg);">
+                    <span class="price">
+                        ₱32.50
+                    </span>
+                </button>
+                <button class="item weapon_melee_torch" style="background-image: url(items/weapon_melee_torch.jpg);">
+                    <span class="price">
+                        ₱9.50
+                    </span>
+                </button>
+
+                
+                <button class="item weapon_shotgun_pump" style="background-image: url(items/weapon_shotgun_pump.jpg);">
+                    <span class="price">
+                        ₱2950.50
+                    </span>
+                </button>
+
+
+                <button class="item weapon_repeater_carbine" style="background-image: url(items/weapon_repeater_carbine.jpg);">
+                    <span class="price">
+                        ₱1150.50
+                    </span>
+                </button>
+                <button class="item weapon_repeater_lancaster" style="background-image: url(items/weapon_repeater_lancaster.jpg);">
+                    <span class="price">
+                        ₱1850.50
+                    </span>
+                </button>
+                <button class="item weapon_pistol_mauser" style="background-image: url(items/weapon_pistol_mauser.jpg);">
+                    <span class="price">
+                        ₱720.50
+                    </span>
+                </button>
+                <button class="item weapon_revolver_cattleman" style="background-image: url(items/weapon_revolver_cattleman.jpg);">
+                    <span class="price">
+                        ₱970.50
+                    </span>
+                </button>
+                <button class="item weapon_revolver_doubleaction" style="background-image: url(items/weapon_revolver_doubleaction.jpg);">
+                    <span class="price">
+                        ₱1020.50
+                    </span>
+                </button>
+                <button class="item weapon_rifle_boltaction" style="background-image: url(items/weapon_rifle_boltaction.jpg);">
+                    <span class="price">
+                        ₱2140.50
+                    </span>
+                </button>
+                <button class="item weapon_rifle_springfield" style="background-image: url(items/weapon_rifle_springfield.jpg);">
+                    <span class="price">
+                        ₱2520.50
+                    </span>
+                </button>
+                <button class="item weapon_bow" style="background-image: url(items/weapon_bow.jpg);">
+                    <span class="price">
+                        ₱116.50
+                    </span>
+                </button>
+                <button class="item weapon_bow_improved" style="background-image: url(items/weapon_bow_improved.jpg);">
+                    <span class="price">
+                        ₱336.50
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="ammo">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item ammorepeaternormal" style="background-image: url(items/ammorepeaternormal.jpg);">
+                    <span class="price">
+                        ₱0.50
+                    </span>
+                </button>
+                <!-- <button class="item ammorepeaterexpress" style="background-image: url(items/ammorepeaterexpress.jpg);">
+                    <span class="price">
+                        ₱1.50
+                    </span>
+                </button>
+                <button class="item ammorepeatersplitpoint" style="background-image: url(items/ammorepeatersplitpoint.jpg);">
+                    <span class="price">
+                        ₱2.50
+                    </span>
+                </button>
+                <button class="item ammorepeatervelocity" style="background-image: url(items/ammorepeatervelocity.jpg);">
+                    <span class="price">
+                        ₱4.00
+                    </span>
+                </button> -->
+
+                
+                <button class="item ammopistolnormal" style="background-image: url(items/ammopistolnormal.jpg);">
+                    <span class="price">
+                        ₱0.50
+                    </span>
+                </button>
+                <!-- <button class="item ammopistolexpress" style="background-image: url(items/ammopistolexpress.jpg);">
+                    <span class="price">
+                        ₱1.50
+                    </span>
+                </button>
+                <button class="item ammopistolsplitpoint" style="background-image: url(items/ammopistolsplitpoint.jpg);">
+                    <span class="price">
+                        ₱2.50
+                    </span>
+                </button>
+                <button class="item ammopistolvelocity" style="background-image: url(items/ammopistolvelocity.jpg);">
+                    <span class="price">
+                        ₱4.00
+                    </span>
+                </button> -->
+
+                
+                <button class="item ammorevolvernormal" style="background-image: url(items/ammorevolvernormal.jpg);">
+                    <span class="price">
+                        ₱0.50
+                    </span>
+                </button>
+                <!-- <button class="item ammorevolverexpress" style="background-image: url(items/ammorevolverexpress.jpg);">
+                    <span class="price">
+                        ₱1.50
+                    </span>
+                </button>
+                <button class="item ammorevolversplitpoint" style="background-image: url(items/ammorevolversplitpoint.jpg);">
+                    <span class="price">
+                        ₱2.50
+                    </span>
+                </button>
+                <button class="item ammorevolvervelocity" style="background-image: url(items/ammorevolvervelocity.jpg);">
+                    <span class="price">
+                        ₱4.00
+                    </span>
+                </button> -->
+
+                <button class="item ammoriflenormal" style="background-image: url(items/ammoriflenormal.jpg);">
+                    <span class="price">
+                        ₱0.50
+                    </span>
+                </button>
+                <!-- <button class="item ammorifleexpress" style="background-image: url(items/ammorifleexpress.jpg);">
+                    <span class="price">
+                        ₱1.50
+                    </span>
+                </button>
+                <button class="item ammoriflesplitpoint" style="background-image: url(items/ammoriflesplitpoint.jpg);">
+                    <span class="price">
+                        ₱2.50
+                    </span>
+                </button>
+                <button class="item ammoriflevelocity" style="background-image: url(items/ammoriflevelocity.jpg);">
+                    <span class="price">
+                        ₱4.00
+                    </span>
+                </button> -->
+
+                
+                <button class="item ammoshotgunnormal" style="background-image: url(items/ammoshotgunnormal.jpg);">
+                    <span class="price">
+                        ₱0.50
+                    </span>
+                </button>
+                <!-- <button class="item ammoshotgunslug" style="background-image: url(items/ammoshotgunslug.jpg);">
+                    <span class="price">
+                        ₱1.50
+                    </span>
+                </button> -->
+                <button class="item ammoarrownormal" style="background-image: url(items/ammoarrownormal.jpg);">
+                    <span class="price">
+                        ₱1.00
+                    </span>
+                </button>
+            </div>            
+        </div>
+        <div class="ticket">
+            <div class="stores_buttons">
+                <ul>
+                    <li><a id="close" class="stores_close_button"></a></li>
+                </ul>
+            </div>
+            <div class="stores_items">
+                <button class="item bticket" style="background-image: url(items/bticket.jpg);">
+                    <span class="price">
+                        ₱850.00
+                    </span>
+                </button>
+                <button class="item mticket" style="background-image: url(items/mticket.jpg);">
+                    <span class="price">
+                        ₱850.00
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <script>
+            function rightClick(event) {
+                if(event.button === 2){
+                    $.post('http://nic_stores/close', JSON.stringify({}), () => { console.log("finish")}) ;
+                }
+            }
+        </script>
+    </body>
+</html>

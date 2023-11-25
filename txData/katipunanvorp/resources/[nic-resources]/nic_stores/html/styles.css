@@ -1,0 +1,156 @@
+
+img{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+*{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.assorted, .bakery, .fruits, .clinic, .market, .tools, .liquor, .planting, .horse_items, .tents, .weapons, .ammo, .ticket {
+    display: none;
+    position: absolute;
+    margin-left: 35%;
+    width: 450px;
+    height: 650px;
+    background-image: url("menu_hut.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.price{
+  color: #e7d9c1;
+  position: absolute;
+  /* right: 12px; */
+  padding: 2px;
+  background-color: #3d561e;
+  border: 2px solid #3b3121;
+  border-radius: 4px;
+  margin-top: -38px;
+  /* margin-right: -9px; */
+  font-size: 11px;
+}
+
+.item{
+  outline: none;
+  background-size: cover;
+  padding: 35px;
+  margin: 3px;
+  border: 0;
+  transition: all 0.2s;
+
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.item:after{
+  -webkit-box-shadow: 0px 0px 15px 0px #3d27ff; 
+  box-shadow: 0px 0px 15px 0px #3d27ff;  
+}
+
+.item:hover{
+  -webkit-box-shadow: 0px 0px 15px 0px #F2FF27; 
+  box-shadow: 0px 0px 15px 0px #F2FF27; 
+  transform: scale(1.2);
+}
+
+.item:active{
+  -webkit-box-shadow: 0px 0px 15px 0px #ff4727; 
+  box-shadow: 0px 0px 15px 0px #ff4727; 
+  transform: scale(0.9);
+}
+
+.stores_items{  
+  margin: 50px;
+}
+
+.stores_content {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 80%;
+}
+
+.stores_sender {
+    font-weight: 900;
+}
+
+.stores_close_button{
+  padding: 25px;
+  background-image: url("close_btn.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.stores_close_button:hover{
+  background-image: url("close_btn_2.png");
+
+}
+
+.stores_buttons {
+    position: absolute;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#div1{
+  height: 24rem;
+  border: 2px solid red;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

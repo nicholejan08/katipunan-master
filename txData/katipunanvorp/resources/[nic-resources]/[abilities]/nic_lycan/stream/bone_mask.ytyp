@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="100.222" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.124499" y="-0.14893" z="-0.161993" />
+      <bbMax x="0.124499" y="0.14893" z="0.161993" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="0.252827" />
+      <hdTextureDist value="75.1665" />
+      <name>bone_mask</name>
+      <textureDictionary>bone_mask</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bone_mask</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>bone_mask</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

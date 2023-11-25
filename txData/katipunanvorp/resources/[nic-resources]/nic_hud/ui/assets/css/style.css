@@ -1,0 +1,834 @@
+
+@font-face {
+    font-family: crock;
+    src: url(../fonts/crock.ttf) format('truetype');
+}
+
+html, body {
+	height: 100% !important;
+}
+
+html {
+	overflow: hidden;
+}
+
+* {
+    font-family: "crock", crock, serif !important;
+    transition: all 0.4s;
+	font-family: 'Merienda One', cursive;
+}
+
+button:focus, button:active{
+    outline: none !important;
+}
+
+body {
+	background: transparent;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	flex-direction: column;
+	margin: 0 !important;
+	padding: 0 !important;
+	/* background-image: url("https://reddeadredemption2mod.com/wp-content/uploads/2019/10/6-Best-Red-Dead-Redemption-2-Mods-For-PC-will-Release-Soon.jpg"); */
+}
+
+html, body {
+	height: 100% !important;
+}
+
+/* crosshair */
+
+.crosshair {
+	display: none;
+    height: 100vh;
+	width: 100vw;
+    align-items: center;
+    justify-content: center;
+	font-size: 25px;
+}
+
+.crosshair img{
+	height: 232px;
+	width: auto;
+}
+
+/* HUD */
+
+.c-row{
+    position: absolute;
+	display: flex;
+    flex-direction: column;
+	height: 46px;
+	width: 100%;
+    max-width: 59vw;
+}
+
+.c-row span#location{
+    color: #b1a093;
+}
+
+.c-row span#day{
+    color: #c48b5f;
+}
+
+.c-row span{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+    overflow: hidden;
+    height: 100%;
+    font-size: 13px;
+}
+
+.n-row{
+	display: flex;
+	height: 25px;
+	width: 100%;
+    max-width: 34vw;
+}
+
+.n-col{
+    display: flex;
+    align-items: center;
+}
+
+.n-col.job{
+    display: flex;
+    justify-content: center;
+    width: 116px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.n-col.job span{
+    text-transform: uppercase !important;
+}
+
+.n-col.space{
+    width: 274px;
+}
+
+.n-col.id{
+    width: 60px;
+    text-align: left !important;
+    margin-left: 1.5rem;
+}
+
+.n-col.temp{
+    width: 57px;
+    font-size: 12px;
+    overflow: hidden;
+    height: 100%;
+}
+
+#textjob, #texttemp{
+    height: 10px;
+    color: #b1a093;
+}
+
+#statusHud {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+	display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+#varHealth {
+    z-index: 99 !important;
+	display: flex;
+    margin-bottom: -7px;
+    transform: scale(0.7);
+    max-width: 210px;
+    background-image: url("../img/health-bg-2.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 43px;
+    padding: 3px 11px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 2px - 4px);
+} 
+
+#varArmor {
+	width: calc(25% - 4px - 4px);
+
+}
+
+#varHealth > .barIcon,
+#varArmor > .barIcon {
+	width: 15%;
+}
+
+#varStress {
+	margin-right: 0px !important;
+}
+
+#boxSetHealth{
+	width: 100%;
+	max-width: 206px;
+}
+
+#varHealth > #boxSetHealth {
+    margin-left: -10px;
+    height: 35px;
+	background-image: url("../img/life-bg-2.png");
+	background-size: cover;
+}
+
+#varArmor > #boxSetArmour {
+	background: rgb(66, 137, 255);
+}
+
+#varHunger{    
+    right: 140px;
+}
+
+#varThirst{
+    left:  140px;
+}
+
+#varHunger, #varThirst{
+	z-index: 9;
+    border-radius: 55px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#varHunger > #boxSetHunger {    
+    border-radius: 55px;
+}
+
+
+#varThirst > #boxSetThirst {	
+    border-radius: 55px;
+}
+
+#varOxygen > #boxSetOxygen {
+	background: rgb(76, 91, 117);
+}
+
+#varStress > #boxSetStress {
+	background: rgb(192, 59, 59);
+}
+
+
+.stats{
+	z-index: 99 !important;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 65px;
+}
+
+.bar {
+    width: 35px;
+    height: 35px;
+	float: left;
+	margin-right: 2px;
+    margin-left: 2px;
+    z-index: 8;
+}
+
+.metabolism-wrapper{
+	z-index: 19 !important;
+    bottom: 3px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pb-vorp-food{
+    background-image: url(../img/hunger.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pb-vorp-water{
+    background-image: url(../img/thirst.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.metabolism-cols-wrapper{
+    z-index: 99 !important;
+    height: 30px;
+    width: 100%;
+    max-width: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pb-vorp-water, .pb-vorp-food{
+    transform: scale(0.6);
+    z-index: 8 !important;
+    display: flex;
+    border-radius: 55px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+    width: 45px;
+    height: 45px;
+}
+
+.water, .food{
+    z-index: 8 !important;
+    width: 4vw;
+}
+
+#boxSetHealth, #boxSetArmour, #boxSetHunger, #boxSetThirst, #boxSetOxygen, #boxSetStress {
+	width: 100%;
+	height: 35px;
+	z-index: 97;
+	max-width: 200px;
+}
+
+.barIcon {
+    margin-top: -1px;
+    border-radius: 55px;
+    width: 35px;
+	z-index: 9;
+}
+
+.phys-controls{
+	position: fixed;
+	top: 22%;
+	width: 58px !important;
+	margin: 0 3rem;
+}
+
+.f-container{
+    width: 676px;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.day-place {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100%;
+	min-width: 480px;
+	max-width: 694px;
+	height: 7vh;
+	background-image: url("..img/day-place.png");
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.temp-job {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+    width: 100%;
+	min-width: 480px;
+	max-width: 694px;
+	height: 5vh;
+	background-image: url("../img/temp-job.png");
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.header-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    width: 100%;
+	min-width: 480px;
+	max-width: 694px;
+	height: 45px;
+	background-image: url("../img/header.png");
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.compass{
+    width: 19.2vw;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-left: -6px;
+}
+
+.footer-bg {
+    width: 100%;
+	display: flex;
+	position: absolute;
+	bottom: 0;
+    align-items: flex-end !important;
+	justify-content: center;
+	margin-top:auto;
+    height: 72px;
+    background-image: url(../img/footer.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container {
+	margin: auto;
+	display: flex;
+	height: 65px;
+	border: 1px red;
+	width: 100%;
+	z-index: 9;
+}
+
+.n-col{
+	width: 100%;
+    text-shadow: 2px 3px 1.75px rgb(0, 0, 0);
+}
+
+.n-xp{
+    margin-bottom: 3px;
+    height: 20px;
+    width: 6.5vw;
+    position: fixed;
+    margin-left: 29vw;
+}
+
+.cols-wrapper-bottom {
+    z-index: 6;
+    text-shadow: 2px 3px 1.75px rgb(0, 0, 0);
+    color: #a08875;
+    background-color: red;
+    height: 25px;
+    width: 56vw;
+	display: flex;
+    color: #fff;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.block {
+	text-align: center;
+	width: 50%;
+}
+
+.container-top {
+	margin: 0 auto;
+	width: 47.5vw;
+	min-width: 420px;
+	max-width: 600px;
+	z-index: 9;
+	position: fixed;
+    bottom: -12px;
+}
+
+.cols-wrapper {
+    width: 42vw;
+    min-width: 400px;
+    max-width: 649px;
+    display: flex;
+    color: #fff;
+    font-size: 14px;
+    justify-content: center;
+}
+
+
+#textinfo {
+	color: #9e9993;
+	font-size: 14px;
+}
+
+#textid {
+	color: #9e9993;
+	font-size: 14px;
+}
+
+.main {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#header {
+	width: 498px;
+	height: 45px;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0);
+	margin: 0 auto;
+}
+
+#footer {
+	z-index: 3 !important;
+	width: 553px;
+	height: 74px;
+	position: fixed;
+	left: 51.3%;
+	bottom: 0;
+	transform: translate(-50%, 0);
+	margin: 0 auto;
+}
+
+#actions {
+	width: 261px;
+	height: 60px;
+	position: fixed;
+	left: 25%;
+	bottom: 0;
+	transform: translate(-50%, 0);
+	margin: 0 auto;
+}
+
+svg {
+	z-index: 7;
+	margin-left: 232px;
+	bottom: 23px;
+	padding: 0 !important;
+	max-width: 72px;
+	height: 10px !important;
+	transform: translate(-50%, 0);
+}
+
+.spacer2{
+    min-width: 370px;
+    width: 19vw;
+}
+
+#money,
+#gold,
+#rol {
+	text-shadow: 3px 4px 1.75px rgb(0 0 0);
+}
+
+.money-wrapper {
+    width: 676px;
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.money-cents {
+	font-size: 14px;
+	letter-spacing: 0;
+	text-decoration: underline #d89a2e;
+	margin-left: 1px;
+	position: relative;
+}
+
+.money-cash {
+    z-index: 4;
+    max-width: 115px;
+    overflow: hidden;
+    font-size: 21px;
+    text-shadow: 3px 4px 1.75px rgb(0 0 0);
+    align-items: right;
+    display: flex;
+    letter-spacing: 1px;
+    color: #b1a093;
+}
+
+.spacer{
+    min-width: 170px;
+    width: 15vw;
+}
+
+/* player menu */
+
+.symbol_01{
+    margin-top: 2rem;
+    display: none;
+}
+
+.c-button{
+    display: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 1rem;
+    height: 59px;
+    width: 127px;
+    border: 0;
+    color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+    background-image: url("../img/c-button.png");
+    transition: 0.3s all;
+}
+
+.c-button:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 38px 4px rgba(255,234,0,1);
+    -moz-box-shadow: 0px 0px 38px 4px rgba(255,234,0,1);
+    box-shadow: 0px 0px 38px 4px rgba(255,234,0,1);
+}
+
+.main-player-menu{
+    z-index: 3;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+    background-image: url("../img/side-panel.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    position: absolute;
+    right: -300px;
+    top: 0;
+    width: 100%;
+    max-width: 330px;
+    height: 100%;  
+    padding-left: 6rem !important;  
+	transition: right 0.2s !important;
+}
+
+.side-menu-open{
+	right: 0 !important;
+}
+
+.wake-container{
+    align-items: flex-center;
+    justify-content: flex-center;
+    flex-direction: column;
+    display: flex;
+    z-index: 1;
+    padding: 2rem;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.c-line{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-height: 140px;
+}
+
+button.player-menu-action{
+    display: flex;
+    color:bisque;
+    font-size: 32px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: url("../img/circle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    margin: 1rem;
+    border: 0;
+    padding: 2.4rem;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.3s all;
+    border-radius: 15rem;
+}
+
+button.emotes{
+	transform: scale(0.6);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 1rem;
+    border: 0;
+    padding: 2.4rem;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.3s all;
+}
+
+button.player-menu-action img{
+    max-width: 87px;
+    width: auto;
+}
+
+button.player-menu-action:hover{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 38px 4px rgba(255,234,0,1);
+	-moz-box-shadow: 0px 0px 38px 4px rgba(255,234,0,1);
+	box-shadow: 0px 0px 38px 4px rgba(255,234,0,1);
+}
+
+.close{
+	transform: scale(0.6);
+}
+
+.mt-3{
+    margin-top: 13rem !important;
+}
+
+.mb-1{
+    margin-bottom: 5rem !important;
+}
+
+.mb-3{
+    margin-bottom: 13rem !important;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1700px) {
+	.footer-bg {
+		background-image: url(../img/footer2.png);
+	}
+
+	.n-row{
+		max-width: 51vw;
+	}
+}
+
+@media only screen and (max-width: 1680px) and (max-height: 1050px) {
+	.compass{
+		width: 20vw;
+		bottom: 10px;
+		margin-left: 0;
+	}
+
+	.n-row{
+		max-width: 55vw;
+	}
+
+	.n-xp{
+		width: 3.9vw;
+		margin-left: 28vw;
+	}
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 1024px) {
+
+	.compass{
+		width: 20vw;
+		bottom: 10px;
+		margin-left: 4px;
+	}
+
+	.n-xp{
+		width: 4.5vw;
+		margin-left: 29.1vw;
+	}
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 900px) {	
+
+	.compass{
+		width: 18vw !important;
+		bottom: 8px !important;
+		margin-left: 6px !important;
+	}
+
+	.n-row{
+		max-width: 42vw;
+	}
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 1024px) {
+
+	.compass{
+		width: 25vw;
+		bottom: 10px;
+		margin-left: -4px;
+	}
+
+	.n-row{
+		max-width: 63vw;
+	}
+
+	.n-xp {
+		width: 5.2vw;
+		margin-left: 34.2vw;
+	}
+}
+
+@media only screen and (max-width: 1680px){
+
+    .c-row{
+        max-width: 55vw;
+    }
+
+    .n-row{
+        max-width: 38.6vw;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+
+    .c-row{
+        max-width: 60vw;
+    }
+
+    .n-row{
+        max-width: 42vw;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+
+    .c-row{
+        max-width: 66vw;
+    }
+
+    .n-row{
+        max-width: 46vw;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+
+    .c-row{
+        max-width: 67vw;
+    }
+
+    .n-row{
+        max-width: 48vw;
+    }
+
+    .n-col.space{
+        width: 276px;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+
+    .c-row{
+        max-width: 68vw;
+    }
+
+    .n-row{
+        max-width: 49vw;
+    }
+
+    .n-col.space{
+        width: 254px;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 900px) {
+    .metabolism-cols-wrapper{
+        max-width: 220px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 1024px) {
+    .metabolism-cols-wrapper{
+        max-width: 213px;
+    }
+}

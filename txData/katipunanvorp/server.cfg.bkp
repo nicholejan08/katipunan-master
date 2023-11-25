@@ -1,0 +1,36 @@
+# __      ______  _____  _____  
+# \ \    / / __ \|  __ \|  __ \ 
+#  \ \  / / |  | | |__) | |__) |
+#   \ \/ /| |  | |  _  /|  ___/ 
+#    \  / | |__| | | \ \| |     
+#     \/   \____/|_|  \_\_|     
+#
+# server.cfg docs: https://aka.cfx.re/server-commands
+# VORP support: https://discord.gg/DHGVAbCj7N
+
+## You CAN edit the following:
+endpoint_add_tcp "0.0.0.0:30130"
+endpoint_add_udp "0.0.0.0:30130"
+sv_licenseKey "cfxk_yw3xYwszf86kCdzZMZ93_1kOCLN"
+sv_maxclients 48
+sv_enforceGameBuild 1491 #September 2022 update
+set gamename rdr3
+set steam_webApiKey "3EAC0131C3E64B0ED1C881776E8A3A72"
+set mysql_connection_string "mysql://root@localhost/katipunandb?charset=utf8mb4"
+set mysql_slow_query_warning 200    # to only show warnings above 700
+load_server_icon logo-main.png  #REPLACE the icon.png found in the folder to your logo 96x96
+sets tags "roleplay, western, bandits"
+sets banner_detail "banner.png"  #1865x108 size add a url here
+sets banner_connecting  "link" #use a smaller size add a url here
+
+###################### EXCUTE FILES HERE ###################
+
+exec resources.cfg  # These resources will start by default add them in the file.
+exec resources/[vorp-resources]/[essentials]/weathersync/permissions.cfg
+exec resources/[vorp-resources]/vorp_admin/vorp_perms.cfg
+
+## You SHOULD edit the following:
+sv_hostname "Katipunan RPG"
+sets sv_projectName "Katipunan RPG"
+sets sv_projectDesc "VorpCore Official txAdmin recipe! This will set up a base vorp official server."
+sets locale "root-AQ" # change to your language (eg. en-US, pt-BR, de-DE)

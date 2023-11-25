@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="100" />
+      <flags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.50967" y="-0.473298" z="-0.800616" />
+      <bbMax x="0.50967" y="0.473298" z="0.800616" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="1.06055" />
+      <hdTextureDist value="76.1931" />
+      <name>boxing_gloves_left</name>
+      <textureDictionary>boxing_gloves_left</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>boxing_gloves_left</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>boxing_gloves_left</name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Nic</CreatedBy>
+</CMapTypes>

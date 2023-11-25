@@ -1,0 +1,183 @@
+
+
+<!DOCTYPE html>
+<html lang="en" onmousedown="rightClick(event)">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+        <div id="container" class="container"">
+            <div class="hi-row">
+                <div class="name-wrapper">
+                    <p class="gender ped-name">N/A</p>
+                </div>
+
+                <div id="base" class="options">
+                    <span id="fine">Kamusta ka?</span>
+                    <span id="time">Anong oras na?</span>
+                    <span id="zone">Anong lugar po ito?</span>
+                    <span id="nvm">Paumanhin sa abala.</span>
+                </div>
+
+                <div id="fineOption" class="options">
+                    <div class="response-wrapper">
+                        <p class="response">"</p>
+                        <p id="fineStatus" class="response">N/A</p>
+                        <p class="response">"</p>
+                    </div>
+                    <span id="fineResponse" class="close">Ganun po ba, ako po'y aalis na.</span>
+                </div>
+
+                <div id="timeOption" class="options">
+                    <div class="response-wrapper">
+                        <p class="response">"Ang oras ay </p>
+                        <p id="hours" class="response">N/A</p>
+                        <p class="colon response">:</p>
+                        <p id="minutes" class="response">N/A</p>
+                        <p class="timeText response">N/A</p>
+                        <p class="response" style="margin-left: -0.5rem">"</p>
+                    </div>
+                    <span class="close">Salamat.</span>
+                </div>
+
+                <div id="zoneOption" class="options">
+                    <div id="zonePositive" class="response-wrapper">
+                        <p class="response">"Ikaw ay nasa</p>
+                        <p id="zoneResponse" class="response" style="margin-left: -0.1rem">N/A</p>
+                        <p class="response" style="margin-left: -0.5rem">"</p>
+                    </div>
+                    <div id="zoneNegative" class="response-wrapper">
+                        <p class="response">"Hindi ko alam! umalis ka sa paningin ko!</p>
+                    </div>
+                    <span class="close">Sige po, pasensya na sa abala.</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function rightClick(event) {
+            if(event.button === 2){
+                $("body").fadeOut();
+                $("#base").show();
+                $("#fineOption").css("display", "none");
+                $("#timeOption").css("display", "none");
+                $("#zoneOption").css("display", "none");
+                $.post('http://nic_ped_interact/close', JSON.stringify({}), () => { console.log("finish")}) ;
+            }
+        }
+        window.addEventListener('message', function (event) {   
+                
+            $(document).keydown(e => {
+                var code = e.keyCode || e.which;
+                if(code == 8 || code == 27) { 
+                    $("body").fadeOut();
+                $("#base").show();
+                $("#fineOption").css("display", "none");
+                $("#timeOption").css("display", "none");
+                $("#zoneOption").css("display", "none");
+                    $.post('http://nic_ped_interact/close', JSON.stringify({}));
+                }
+            }); 
+
+            $("#nvm, .close").unbind().click(function(){
+                $("body").fadeOut();
+                $("#base").show();
+                $("#fineOption").css("display", "none");
+                $("#timeOption").css("display", "none");
+                $("#zoneOption").css("display", "none");
+                $.post('http://nic_ped_interact/close', JSON.stringify({})
+                );
+            });
+        });
+    </script>
+
+	<script>
+        window.addEventListener('message', function (event) {            
+            const item = event.data;
+            const hours = parseInt(item.hours, 10);
+            const minutes = parseInt(item.minutes, 10);
+            var timeText = item.timeText;
+            var deny = item.deny;
+            var denyResponse = item.denyResponse;
+            var zone = item.zone;
+            var chance = item.chance;
+            var fineStatus = event.data.fineStatus;
+            var fineResponse = event.data.fineResponse;
+            var zero = "0";
+            
+            switch (event.data.action) {
+                case 'fine':   
+                    $("#fineStatus").html(fineStatus);
+                    $("#fineResponse").html(fineResponse);
+
+                case 'time':
+
+                    if (minutes < 10) {
+                        $("#minutes").html(zero + minutes);
+                    } else {
+                        $("#minutes").html(minutes);
+                    }
+
+                    $("#hours").html(hours);
+                    $(".timeText").html(timeText);
+
+                case 'zone':
+                    if (chance == 0) {
+                        $("#zonePositive").css("display", "none");
+                        $("#zoneNegative").css("display", "flex");
+                    } else {
+                        $("#zonePositive").css("display", "flex");
+                        $("#zoneNegative").css("display", "none");
+                        $("#zoneResponse").html(zone);
+                    }
+                }
+        });
+         
+        window.addEventListener('message', function (event) {
+            var gender = event.data.gender;
+            var nvm = event.data.nvm;
+
+            switch (event.data.action) {
+                case 'updateStatusHud':
+                    $("body").show();
+                    $(".gender").html(gender);
+                    $("#nvm").html(nvm);
+                }
+            });
+
+            $("#fine").unbind().click(function(){                
+                $("#fineOption").css("display", "flex");
+                $("#base").css("display", "none");
+                $("#timeOption").css("display", "none");
+                $("#zoneOption").css("display", "none");
+
+                $.post('http://nic_ped_interact/fine', JSON.stringify({}));
+            });
+
+            $("#time").unbind().click(function(){
+                $("#timeOption").css("display", "flex");
+                $("#base").css("display", "none");
+                $("#fineOption").css("display", "none");
+                $("#zoneOption").css("display", "none");
+
+                $.post('http://nic_ped_interact/time', JSON.stringify({}));
+            });
+            
+            $("#zone").unbind().click(function(){
+                $("#zoneOption").css("display", "flex");
+                $("#base").css("display", "none");
+                $("#fineOption").css("display", "none");
+                $("#timeOption").css("display", "none");
+                
+                $.post('http://nic_ped_interact/zone', JSON.stringify({}));
+        });
+
+    </script>
+</body>
+</html>

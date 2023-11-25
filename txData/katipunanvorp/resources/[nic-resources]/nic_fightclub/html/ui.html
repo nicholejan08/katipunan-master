@@ -1,0 +1,90 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="row d-flex">
+            <div class="col m-lg d-flex relative tag-wrap">
+                <div class="border w-90" style="transform: scaleX(-1)">
+                    <div class="frame">
+                        <div class="health-wrapper shadow d-flex">
+                            <div id="pPath" class="path" style="width: 100%"></div>
+                            <div id="pLifeProgress" class="bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m-lg d-flex relative tag-wrap">
+                <div class="border w-90">
+                    <div class="frame">
+                        <div class="health-wrapper shadow d-flex">
+                            <div id="ePath" class="path" style="width: 100%"></div>
+                            <div id="eLifeProgress" class="bar" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img id="finishhim" src="finish_him.png" class="finishhim" alt="">
+        <img src="header.png" class="header" alt="">
+        <!-- <img src="corner.png" class="corner-alt m-lg" alt=""> -->
+        <img src="corner.png" class="corner m-lg" alt="">
+        <!-- <img src="keys.png" class="keys" alt=""> -->
+        <img src="footer.png" class="footer" alt="">
+    </div>
+
+	<script>
+        let pMaxLife = 0;
+        let eMaxLife = 0;
+
+        $(function(){
+            window.onload = (e) => { 
+                window.addEventListener('message', (event) => {                
+                    const item = event.data;
+                    if (item !== undefined && item.type === "ui") {                        
+                        if (item.display === true) {
+                            const plife = item.plife;
+                            const elife = item.elife;
+                            if(pMaxLife == 0 || eMaxLife == 0){
+                                pMaxLife = plife;
+                                eMaxLife = elife;
+                            }
+                            $("#pPath").css("width", `${Math.floor((plife/pMaxLife)*100)}%`);
+                            $("#pLifeProgress").css("width", `${Math.floor((plife/pMaxLife)*100)}%`);
+
+                            $("#ePath").css("width", `${Math.floor((elife/eMaxLife)*100)}%`);
+                            $("#eLifeProgress").css("width", `${Math.floor((elife/eMaxLife)*100)}%`);
+                            $("#container").show();
+
+                        } else {
+                            pMaxLife = 0;
+                            eMaxLife = 0;
+                            plife = 0;
+                            elife = 0;
+                            $("#ePath").css("width", '100%');
+                            $("#eLifeProgress").css("width", '100%');
+                            $("#container").hide();
+                        }
+                    }
+                    if (item !== undefined && item.type === "finishhim") {
+                        if (item.display === true) {
+                            $("#finishhim").fadeIn();
+                        } else{
+                            $("#finishhim").fadeOut();
+                        }
+                    }
+                });
+            };
+        });
+    </script>
+</body>
+</html>

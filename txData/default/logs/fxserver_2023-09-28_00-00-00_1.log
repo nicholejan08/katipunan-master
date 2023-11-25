@@ -1,0 +1,1917 @@
+
+================================================================
+======== Log Rotated - 9/28/2023, 12:00:00 AM                   
+================================================================
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂NeonSniper＂,＂message＂:＂Server restarting (requested by NeonSniper).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 9/28/2023, 6:34:51 AM              
+================================================================
+[           resources] [32mScanning resources.
+[resources:moonshine_] Warning: moonshine_interiors exists in more than one place (C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[misc-resources]\[unread]\moonshine_interiors is used, the duplicate is C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[vorp-resources]\[essentials]\moonshine_interiors)
+[           resources] Found 199 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;83m[           resources] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] [0mCreating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource interiors
+[           resources] Started resource syn_minigame
+[    c-scripting-core] [0mCreating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_progressbar
+[           resources] Started resource vorp_progressbar
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_metabolism
+[           resources] [97mStarted resource vorp_metabolism
+[    c-scripting-core] [97mCreating script environments for vorp_barbershop
+[           resources] Started resource vorp_barbershop
+[    c-scripting-core] Creating script environments for vorp_postman
+[ script:vorp_postman] vorp_postman: Language En.json loaded!
+[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.LoadConfig.
+[ script:vorp_postman] [97mInstantiated instance of script vorp_postman_sv.vorp_postman_sv_init.
+[           resources] Started resource vorp_postman
+[    c-scripting-core] Creating script environments for vorp_hunting
+[           resources] Started resource vorp_hunting
+[    c-scripting-core] Creating script environments for vorp_stables
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.InitStables_Server.
+[ script:vorp_stables] [0mvorp_stables: Language En.json loaded!
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.LoadConfig.
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.StableDataManagment.
+[           resources] Started resource vorp_stables
+[    c-scripting-core] [0mCreating script environments for vorp_weaponsv2
+[           resources] Started resource vorp_weaponsv2
+[    c-scripting-core] Creating script environments for vorp_clothingstores
+[resources:vorp_cloth] Warning: could not find shared_script `languages/*.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource vorp_clothingstores (1 warning)
+[    c-scripting-core] [0mCreating script environments for vorp_fishing
+[           resources] Started resource vorp_fishing
+[    c-scripting-core] [0mCreating script environments for vorp_housing
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.BasePluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.House.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.Room.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.HouseInventory.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Init.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.PluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Scripts.Manager.
+[38;5;83m[           resources] Started resource vorp_housing
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_banking
+[38;5;83m[           resources] Started resource vorp_banking
+[    c-scripting-core] Creating script environments for vorp_mailbox
+[           resources] Started resource vorp_mailbox
+[    c-scripting-core] Creating script environments for vorp_walkanim
+[           resources] Started resource vorp_walkanim
+[    c-scripting-core] Creating script environments for vorp_ml_policejob
+[           resources] Started resource vorp_ml_policejob
+[    c-scripting-core] Creating script environments for vorp_crafting
+[           resources] Started resource vorp_crafting
+[    c-scripting-core] Creating script environments for vorp_zonenotify
+[           resources] Started resource vorp_zonenotify
+[    c-scripting-core] Creating script environments for vorp_animations
+[           resources] Started resource vorp_animations
+[    c-scripting-core] Creating script environments for vorp_outlaws
+[38;5;83m[           resources] Started resource vorp_outlaws
+[    c-scripting-core] Creating script environments for vorp_loot
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource vorp_loot
+[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_sombra
+[           resources] Started resource nic_sombra
+[    c-scripting-core] Creating script environments for nic_hud
+[           resources] Started resource nic_hud
+[    c-scripting-core] Creating script environments for nic_attach
+[           resources] Started resource nic_attach
+[    c-scripting-core] Creating script environments for nic_camera
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_camera
+[    c-scripting-core] Creating script environments for nic_lumber
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] [0mStarted resource nic_lumber
+[    c-scripting-core] [0mCreating script environments for nic_sticky_bomb
+[           resources] Started resource nic_sticky_bomb
+[    c-scripting-core] Creating script environments for nic_speech
+[           resources] Started resource nic_speech
+[    c-scripting-core] [0mCreating script environments for nic_consume_animals
+[           resources] Started resource nic_consume_animals
+[    c-scripting-core] [0mCreating script environments for nic_ped_interact
+[           resources] Started resource nic_ped_interact
+[    c-scripting-core] Creating script environments for nic_inspect
+[           resources] Started resource nic_inspect
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+[resources:nic_guarma] Warning: could not find client_script `config.lua` (defined in fxmanifest.lua:7)
+[resources:nic_guarma] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource nic_guarma (2 warnings)
+[    c-scripting-core] Creating script environments for nic_shovel
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_shovel
+[    c-scripting-core] Creating script environments for nic_townportal
+[           resources] Started resource nic_townportal
+[    c-scripting-core] Creating script environments for nic_cigars
+[           resources] Started resource nic_cigars
+[    c-scripting-core] Creating script environments for nic_cook
+[           resources] Started resource nic_cook
+[    c-scripting-core] Creating script environments for nic_consumables
+[           resources] Started resource nic_consumables
+[           resources] Started resource nic_water_functions
+[           resources] Started resource nic_eat_plants
+[    c-scripting-core] Creating script environments for nic_fightclub
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_fightclub
+[    c-scripting-core] [0mCreating script environments for nic_injury
+[           resources] [0mStarted resource nic_injury
+[    c-scripting-core] Creating script environments for nic_ladder
+[           resources] Started resource nic_ladder
+[    c-scripting-core] Creating script environments for nic_laydown_object
+[           resources] Started resource nic_laydown_object
+[    c-scripting-core] Creating script environments for nic_make_fire
+[38;5;83m[           resources] Started resource nic_make_fire
+[           resources] Started resource nic_prompts
+[    c-scripting-core] Creating script environments for nic_stores
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_stores
+[    c-scripting-core] Creating script environments for nic_tents
+[           resources] Started resource nic_tents
+[           resources] Started resource nic_ragdoll
+[    c-scripting-core] Creating script environments for nic_travel
+[           resources] Started resource nic_travel
+[    c-scripting-core] [0mCreating script environments for nic_planting
+[           resources] Started resource nic_planting
+[    c-scripting-core] Creating script environments for nic_wilson
+[           resources] [0mStarted resource nic_wilson
+[    c-scripting-core] [0mCreating script environments for nic_horseitems
+[           resources] Started resource nic_horseitems
+[    c-scripting-core] Creating script environments for nic_messages
+[           resources] Started resource nic_messages
+[           resources] Started resource nic_3dwaypoint
+[    c-scripting-core] Creating script environments for nic_weather
+[           resources] Started resource nic_weather
+[           resources] Started resource nic_mapzones
+[    c-scripting-core] Creating script environments for nic_pee
+[           resources] Started resource nic_pee
+[           resources] Started resource nic_poop
+[           resources] Started resource court_house_bw_mlo
+[           resources] Started resource st_denis_pier_pub
+[           resources] Started resource mexican_port
+[           resources] Started resource redm_mexico_map
+[           resources] Started resource thieves_landing_addon
+[    c-scripting-core] Creating script environments for ricx_mexico_hotel
+[           resources] Started resource ricx_mexico_hotel
+[           resources] Started resource zoli_mexico_camps_01
+[           resources] Started resource mexican_stables
+[ resources:nic_props] Warning: could not find file `stream/[addon]/capshield_c.ytyp` (defined in fxmanifest.lua:7)
+[38;5;83m[           resources] Started resource nic_props (1 warning)
+[    c-scripting-core] Creating script environments for 3dme
+[38;5;83m[           resources] Started resource 3dme
+[    c-scripting-core] [0mCreating script environments for backpacks
+[           resources] [0mStarted resource backpacks
+[    c-scripting-core] Creating script environments for bathing
+[           resources] Started resource bathing
+[           resources] Started resource blips
+[    c-scripting-core] Creating script environments for bookat_cleangun
+[           resources] Started resource bookat_cleangun
+[    c-scripting-core] Creating script environments for cart
+[           resources] Started resource cart
+[           resources] Started resource door_states
+[           resources] Started resource fred_coords
+[           resources] Started resource imaps
+[    c-scripting-core] Creating script environments for kcrp_boats_vorp
+[           resources] Started resource kcrp_boats_vorp
+[           resources] Started resource mapanimation
+[           resources] Started resource mapzoom
+[    c-scripting-core] [0mCreating script environments for pedmenu
+[           resources] Started resource pedmenu
+[           resources] Started resource progressbar
+[           resources] Started resource propgun
+[           resources] Started resource senglar_interact
+[    c-scripting-core] Creating script environments for syn_changingroom
+[38;5;83m[           resources] Started resource syn_changingroom
+[    c-scripting-core] Creating script environments for wcrp_interaction
+[           resources] Started resource wcrp_interaction
+[    c-scripting-core] Creating script environments for utility
+Symbol file LoadedFromMemory is not a mono symbol file
+[      script:utility] [0mInstantiated instance of script poke_utils_sv.LoadConfig.
+[      script:utility] Instantiated instance of script poke_utils_sv.poke_utils_sv_init.
+[           resources] [0mStarted resource utility
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] An update is available for oxmysql (current version: 2.7.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.7.5
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://neonsniper-erzjg3.users.cfx.re/
+[script:vorp_metaboli] Metabolism: Loading 5 items usables
+[    script:vorp_core] [0m###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ❌ Outdated (v2.2) - Update found: Version 2.4 (https://github.com/VORPCORE/vorp_admin)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_progressbar) ❌ Outdated (v1.1) - Update found: Version 1.2.0 (https://github.com/VORPCORE/vorp_progressbar)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_character) ❌ Outdated (v1.3) - Update found: Version 1.4 (https://github.com/VORPCORE/vorp_character-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.2) - Update found: Version 2.3 (https://github.com/VORPCORE/vorp-core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_ADMIN - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - NEW VERSION 2.4 security and fixes to events. 
+[    script:vorp_core] - double check for permissions due to RedM cheat menus  
+[    script:vorp_core] - secured heal event  
+[    script:vorp_core] - secured revive event 
+[    script:vorp_core] - fixed ban and unban events and secure them for offline actions 
+[    script:vorp_core] - NEW VERSION 2.3 Refactor server side  
+[    script:vorp_core] - refactor using new exports for new version inventory 
+[    script:vorp_core] - vorp core new callbacks support 
+[    script:vorp_core] - fix user table getGroup  
+[    script:vorp_core] - improved logic for removing staff from table of notify 
+[    script:vorp_core] - update vorp core vorp inventory if you havent yet.
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_PROGRESSBAR - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - progressBars support added (Remove progressBars if you have it installed
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CHARACTER - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added new character selection  
+[    script:vorp_core] - make sure to update all files and read the config file  
+[    script:vorp_core] - update fxmanifes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - in this new version  notifications were refactored and a new notify was introduced NotifyLeftRank. 
+[    script:vorp_core] - notifications can be used as exports for client side alternatively you can declare in your resources fxmanifest to use them direclty. 
+[    script:vorp_core] - callbacks have been refactored and was introduced exports for Async and Await triggers for both server and client as well as register new callbacks. 
+[    script:vorp_core] - everything old is still working for backwards compatibility rest assure.  
+[    script:vorp_core] - new folder was added with Annotation types for callbacks and notification exports. 
+[    script:vorp_core] - docs and vsc code extention will be soon updated check discord for more info on how to use these changes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_animations) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_banking) ✅ Up to date - Version 1.5
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_barbershop) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 3.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_clothingstores) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_crafting) ✅ Up to date - Version 1.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_fishing) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_hunting) ✅ Up to date - Version 1.0.4
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_mailbox) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_metabolism) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_outlaws) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_stables) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_walkanim) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_weaponsv2) ✅ Up to date - Version 2.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_zonenotify) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[      script:hardcap] Connecting: Nic
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 1083 milliseconds
+[ script:vorp_stables] Nic has no horses
+[ script:vorp_stables] Nic has no complements
+[script:vorp_inventor] SCRIPT ERROR: @vorp_inventory/server/services/inventoryApiService.lua:940: attempt to index a nil value (local 'weapon')
+[script:vorp_inventor] > ref (@vorp_inventory/vorpInventoryApi.lua:101)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:81)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:71)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:68)
+[script:vorp_inventor] > handler (@vorp_core/server/sv_apicontroller.lua:36)
+[script:vorp_inventor] > handler (@nic_stores/server.lua:62)
+[script:vorp_inventor] [91mSCRIPT ERROR: @vorp_inventory/server/services/inventoryApiService.lua:940: attempt to index a nil value (local 'weapon')
+[script:vorp_inventor] > ref (@vorp_inventory/vorpInventoryApi.lua:101)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:81)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:71)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:68)
+[script:vorp_inventor] > handler (@vorp_core/server/sv_apicontroller.lua:36)
+[script:vorp_inventor] > handler (@nic_stores/server.lua:62)
+> restart nic_fightclub
+[           resources] Stopping resource nic_fightclub
+[    c-scripting-core] Creating script environments for nic_fightclub
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] [0mStarted resource nic_fightclub
+[script:nic_fightclub] event nic_fightclub:fightRefresh was not safe for net
+[script:nic_fightclub] event nic_fightclub:fightRefresh was not safe for net
+[script:nic_fightclub] event nic_fightclub:fightRefresh was not safe for net
+> restart nic_fightclub
+[           resources] Stopping resource nic_fightclub
+[    c-scripting-core] [0mCreating script environments for nic_fightclub
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_fightclub
+[script:nic_fightclub] event nic_fightclub:fightRefresh was not safe for net
+> start nic_antman
+[    c-scripting-core] Creating script environments for nic_antman
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_antman
+> restart nic_antman
+[           resources] Stopping resource nic_antman
+[    c-scripting-core] Creating script environments for nic_antman
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_antman
+> restart nic_antman
+[           resources] Stopping resource nic_antman
+[    c-scripting-core] [0mCreating script environments for nic_antman
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] [0mStarted resource nic_antman
+> stop nic_antman
+[           resources] Stopping resource nic_antman
+> start nic_lycan
+[    c-scripting-core] Creating script environments for nic_lycan
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[38;5;83m[           resources] Started resource nic_lycan
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+> weatherui
+[    c-scripting-core] [0mInvokeNative: execution failed: Argument at index 1 was null.
+[  script:weathersync] SCRIPT ERROR: Execution of native 000000002f7a49e6 in script host failed: Argument at index 1 was null.
+[  script:weathersync] > [global chunk] (TriggerClientEventInternal.lua:3)
+[  script:weathersync] > ref (@weathersync/server.lua:415)
+> addGroup 1 admin
+[    script:vorp_core] [0myou must be in game to use this command
+> txaEvent "adminsUpdated" "[1]"
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂NeonSniper＂,＂message＂:＂Server restarting (requested by NeonSniper).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 9/28/2023, 7:17:51 AM              
+================================================================
+[           resources] Scanning resources.
+[resources:moonshine_] Warning: moonshine_interiors exists in more than one place (C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[misc-resources]\[unread]\moonshine_interiors is used, the duplicate is C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[vorp-resources]\[essentials]\moonshine_interiors)
+[           resources] Found 199 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [0m[txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[38;5;83m[           resources] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;83m[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource interiors
+[           resources] Started resource syn_minigame
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] [97mStarted resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] [0mCreating script environments for vorp_progressbar
+[           resources] Started resource vorp_progressbar
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] [0mCreating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] [97mCreating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[38;5;83m[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_metabolism
+[           resources] Started resource vorp_metabolism
+[    c-scripting-core] Creating script environments for vorp_barbershop
+[           resources] Started resource vorp_barbershop
+[    c-scripting-core] Creating script environments for vorp_postman
+[38;5;18m[ script:vorp_postman] vorp_postman: Language En.json loaded!
+[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.LoadConfig.
+[38;5;18m[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.vorp_postman_sv_init.
+[38;5;83m[           resources] Started resource vorp_postman
+[    c-scripting-core] Creating script environments for vorp_hunting
+[           resources] Started resource vorp_hunting
+[    c-scripting-core] [0mCreating script environments for vorp_stables
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.InitStables_Server.
+[ script:vorp_stables] [0mvorp_stables: Language En.json loaded!
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.LoadConfig.
+[38;5;191m[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.StableDataManagment.
+[           resources] Started resource vorp_stables
+[    c-scripting-core] Creating script environments for vorp_weaponsv2
+[           resources] Started resource vorp_weaponsv2
+[    c-scripting-core] Creating script environments for vorp_clothingstores
+[resources:vorp_cloth] Warning: could not find shared_script `languages/*.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource vorp_clothingstores (1 warning)
+[    c-scripting-core] Creating script environments for vorp_fishing
+[           resources] Started resource vorp_fishing
+[    c-scripting-core] [0mCreating script environments for vorp_housing
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.BasePluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.House.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.Room.
+[38;5;132m[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.HouseInventory.
+[ script:vorp_housing] [0mInstantiated instance of script VORP.Housing.Server.Init.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.PluginManager.
+[38;5;132m[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Scripts.Manager.
+[           resources] Started resource vorp_housing
+[    c-scripting-core] Creating script environments for vorp_banking
+[           resources] Started resource vorp_banking
+[    c-scripting-core] Creating script environments for vorp_mailbox
+[           resources] Started resource vorp_mailbox
+[    c-scripting-core] Creating script environments for vorp_walkanim
+[           resources] Started resource vorp_walkanim
+[    c-scripting-core] Creating script environments for vorp_ml_policejob
+[           resources] Started resource vorp_ml_policejob
+[    c-scripting-core] Creating script environments for vorp_crafting
+[           resources] Started resource vorp_crafting
+[    c-scripting-core] Creating script environments for vorp_zonenotify
+[           resources] Started resource vorp_zonenotify
+[    c-scripting-core] Creating script environments for vorp_animations
+[           resources] Started resource vorp_animations
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_outlaws
+[           resources] Started resource vorp_outlaws
+[    c-scripting-core] Creating script environments for vorp_loot
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource vorp_loot
+[    c-scripting-core] [0mCreating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+[    c-scripting-core] [0mCreating script environments for nic_sombra
+[           resources] Started resource nic_sombra
+[    c-scripting-core] Creating script environments for nic_hud
+[           resources] Started resource nic_hud
+[    c-scripting-core] Creating script environments for nic_attach
+[           resources] Started resource nic_attach
+[    c-scripting-core] Creating script environments for nic_camera
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_camera
+[    c-scripting-core] Creating script environments for nic_lumber
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_lumber
+[    c-scripting-core] Creating script environments for nic_sticky_bomb
+[           resources] Started resource nic_sticky_bomb
+[    c-scripting-core] Creating script environments for nic_speech
+[           resources] Started resource nic_speech
+[    c-scripting-core] Creating script environments for nic_consume_animals
+[           resources] Started resource nic_consume_animals
+[    c-scripting-core] Creating script environments for nic_ped_interact
+[           resources] Started resource nic_ped_interact
+[    c-scripting-core] Creating script environments for nic_inspect
+[           resources] Started resource nic_inspect
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+[resources:nic_guarma] Warning: could not find client_script `config.lua` (defined in fxmanifest.lua:7)
+[resources:nic_guarma] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource nic_guarma (2 warnings)
+[    c-scripting-core] Creating script environments for nic_shovel
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_shovel
+[    c-scripting-core] [0mCreating script environments for nic_townportal
+[           resources] Started resource nic_townportal
+[    c-scripting-core] Creating script environments for nic_cigars
+[           resources] Started resource nic_cigars
+[    c-scripting-core] Creating script environments for nic_cook
+[           resources] Started resource nic_cook
+[    c-scripting-core] Creating script environments for nic_consumables
+[           resources] Started resource nic_consumables
+[           resources] Started resource nic_water_functions
+[           resources] Started resource nic_eat_plants
+[    c-scripting-core] Creating script environments for nic_fightclub
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_fightclub
+[    c-scripting-core] Creating script environments for nic_injury
+[           resources] Started resource nic_injury
+[    c-scripting-core] [0mCreating script environments for nic_ladder
+[           resources] Started resource nic_ladder
+[    c-scripting-core] Creating script environments for nic_laydown_object
+[           resources] Started resource nic_laydown_object
+[    c-scripting-core] Creating script environments for nic_make_fire
+[           resources] Started resource nic_make_fire
+[           resources] Started resource nic_prompts
+[    c-scripting-core] [0mCreating script environments for nic_stores
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] [0mStarted resource nic_stores
+[    c-scripting-core] Creating script environments for nic_tents
+[           resources] Started resource nic_tents
+[           resources] Started resource nic_ragdoll
+[    c-scripting-core] Creating script environments for nic_travel
+[           resources] Started resource nic_travel
+[    c-scripting-core] Creating script environments for nic_planting
+[           resources] Started resource nic_planting
+[    c-scripting-core] Creating script environments for nic_wilson
+[           resources] Started resource nic_wilson
+[    c-scripting-core] Creating script environments for nic_horseitems
+[           resources] Started resource nic_horseitems
+[    c-scripting-core] [0mCreating script environments for nic_messages
+[           resources] Started resource nic_messages
+[           resources] Started resource nic_3dwaypoint
+[    c-scripting-core] Creating script environments for nic_weather
+[           resources] [0mStarted resource nic_weather
+[           resources] Started resource nic_mapzones
+[    c-scripting-core] [0mCreating script environments for nic_pee
+[           resources] Started resource nic_pee
+[           resources] Started resource nic_poop
+[           resources] Started resource court_house_bw_mlo
+[           resources] Started resource st_denis_pier_pub
+[           resources] Started resource mexican_port
+[           resources] Started resource redm_mexico_map
+[           resources] Started resource thieves_landing_addon
+[    c-scripting-core] Creating script environments for ricx_mexico_hotel
+[           resources] Started resource ricx_mexico_hotel
+[           resources] Started resource zoli_mexico_camps_01
+[           resources] Started resource mexican_stables
+[ resources:nic_props] Warning: could not find file `stream/[addon]/capshield_c.ytyp` (defined in fxmanifest.lua:7)
+[           resources] Started resource nic_props (1 warning)
+[    c-scripting-core] Creating script environments for 3dme
+[           resources] Started resource 3dme
+[    c-scripting-core] Creating script environments for backpacks
+[           resources] Started resource backpacks
+[    c-scripting-core] [0mCreating script environments for bathing
+[           resources] Started resource bathing
+[           resources] Started resource blips
+[    c-scripting-core] Creating script environments for bookat_cleangun
+[           resources] Started resource bookat_cleangun
+[    c-scripting-core] Creating script environments for cart
+[           resources] Started resource cart
+[           resources] Started resource door_states
+[           resources] Started resource fred_coords
+[           resources] Started resource imaps
+[    c-scripting-core] Creating script environments for kcrp_boats_vorp
+[           resources] Started resource kcrp_boats_vorp
+[           resources] Started resource mapanimation
+[           resources] Started resource mapzoom
+[    c-scripting-core] [0mCreating script environments for pedmenu
+[           resources] Started resource pedmenu
+[           resources] [0mStarted resource progressbar
+[           resources] Started resource propgun
+[           resources] Started resource senglar_interact
+[    c-scripting-core] Creating script environments for syn_changingroom
+[           resources] Started resource syn_changingroom
+[    c-scripting-core] Creating script environments for wcrp_interaction
+[           resources] Started resource wcrp_interaction
+[    c-scripting-core] Creating script environments for utility
+Symbol file LoadedFromMemory is not a mono symbol file
+[38;5;136m[      script:utility] Instantiated instance of script poke_utils_sv.LoadConfig.
+[      script:utility] Instantiated instance of script poke_utils_sv.poke_utils_sv_init.
+[           resources] Started resource utility
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] An update is available for oxmysql (current version: 2.7.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.7.5
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://neonsniper-erzjg3.users.cfx.re/
+[script:vorp_metaboli] Metabolism: Loading 5 items usables
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ❌ Outdated (v2.2) - Update found: Version 2.4 (https://github.com/VORPCORE/vorp_admin)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_progressbar) ❌ Outdated (v1.1) - Update found: Version 1.2.0 (https://github.com/VORPCORE/vorp_progressbar)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_character) ❌ Outdated (v1.3) - Update found: Version 1.4 (https://github.com/VORPCORE/vorp_character-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.2) - Update found: Version 2.3 (https://github.com/VORPCORE/vorp-core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_ADMIN - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - NEW VERSION 2.4 security and fixes to events. 
+[    script:vorp_core] - double check for permissions due to RedM cheat menus  
+[    script:vorp_core] - secured heal event  
+[    script:vorp_core] - secured revive event 
+[    script:vorp_core] - fixed ban and unban events and secure them for offline actions 
+[    script:vorp_core] - NEW VERSION 2.3 Refactor server side  
+[    script:vorp_core] - refactor using new exports for new version inventory 
+[    script:vorp_core] - vorp core new callbacks support 
+[    script:vorp_core] - fix user table getGroup  
+[    script:vorp_core] - improved logic for removing staff from table of notify 
+[    script:vorp_core] - update vorp core vorp inventory if you havent yet.
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_PROGRESSBAR - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - progressBars support added (Remove progressBars if you have it installed
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CHARACTER - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added new character selection  
+[    script:vorp_core] - make sure to update all files and read the config file  
+[    script:vorp_core] - update fxmanifes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - in this new version  notifications were refactored and a new notify was introduced NotifyLeftRank. 
+[    script:vorp_core] - notifications can be used as exports for client side alternatively you can declare in your resources fxmanifest to use them direclty. 
+[    script:vorp_core] - callbacks have been refactored and was introduced exports for Async and Await triggers for both server and client as well as register new callbacks. 
+[    script:vorp_core] - everything old is still working for backwards compatibility rest assure.  
+[    script:vorp_core] - new folder was added with Annotation types for callbacks and notification exports. 
+[    script:vorp_core] - docs and vsc code extention will be soon updated check discord for more info on how to use these changes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_animations) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_banking) ✅ Up to date - Version 1.5
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_barbershop) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 3.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_clothingstores) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_crafting) ✅ Up to date - Version 1.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_fishing) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_hunting) ✅ Up to date - Version 1.0.4
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_mailbox) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_metabolism) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_outlaws) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_stables) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_walkanim) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_weaponsv2) ✅ Up to date - Version 2.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_zonenotify) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[      script:hardcap] Connecting: Nic
+[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 554 milliseconds
+[ script:vorp_stables] Nic has no horses
+[ script:vorp_stables] Nic has no complements
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂NeonSniper＂,＂message＂:＂Server restarting (requested by NeonSniper).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 9/28/2023, 7:23:55 AM              
+================================================================
+[           resources] [32mScanning resources.
+[resources:moonshine_] Warning: moonshine_interiors exists in more than one place (C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[misc-resources]\[unread]\moonshine_interiors is used, the duplicate is C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[vorp-resources]\[essentials]\moonshine_interiors)
+[           resources] Found 199 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] [0mCreating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[38;5;83m[           resources] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;83m[           resources] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] [0mCreating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[38;5;83m[           resources] Started resource oxmysql
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource interiors
+[           resources] Started resource syn_minigame
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_progressbar
+[           resources] Started resource vorp_progressbar
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_metabolism
+[           resources] Started resource vorp_metabolism
+[    c-scripting-core] Creating script environments for vorp_barbershop
+[           resources] Started resource vorp_barbershop
+[    c-scripting-core] Creating script environments for vorp_postman
+[38;5;18m[ script:vorp_postman] vorp_postman: Language En.json loaded!
+[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.LoadConfig.
+[38;5;18m[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.vorp_postman_sv_init.
+[38;5;83m[           resources] Started resource vorp_postman
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_hunting
+[           resources] Started resource vorp_hunting
+[    c-scripting-core] Creating script environments for vorp_stables
+[ script:vorp_stables] [0mInstantiated instance of script VORP.Stables.Server.InitStables_Server.
+[ script:vorp_stables] vorp_stables: Language En.json loaded!
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.LoadConfig.
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.StableDataManagment.
+[           resources] Started resource vorp_stables
+[    c-scripting-core] Creating script environments for vorp_weaponsv2
+[           resources] Started resource vorp_weaponsv2
+[    c-scripting-core] [0mCreating script environments for vorp_clothingstores
+[resources:vorp_cloth] Warning: could not find shared_script `languages/*.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource vorp_clothingstores (1 warning)
+[    c-scripting-core] Creating script environments for vorp_fishing
+[           resources] Started resource vorp_fishing
+[    c-scripting-core] Creating script environments for vorp_housing
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.BasePluginManager.
+[ script:vorp_housing] [0mInstantiated instance of script VORP.Housing.Shared.Models.House.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.Room.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.HouseInventory.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Init.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.PluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Scripts.Manager.
+[           resources] Started resource vorp_housing
+[    c-scripting-core] Creating script environments for vorp_banking
+[           resources] Started resource vorp_banking
+[    c-scripting-core] Creating script environments for vorp_mailbox
+[           resources] Started resource vorp_mailbox
+[    c-scripting-core] Creating script environments for vorp_walkanim
+[           resources] [0mStarted resource vorp_walkanim
+[    c-scripting-core] Creating script environments for vorp_ml_policejob
+[           resources] Started resource vorp_ml_policejob
+[    c-scripting-core] [0mCreating script environments for vorp_crafting
+[           resources] Started resource vorp_crafting
+[    c-scripting-core] [0mCreating script environments for vorp_zonenotify
+[           resources] Started resource vorp_zonenotify
+[    c-scripting-core] Creating script environments for vorp_animations
+[38;5;83m[           resources] Started resource vorp_animations
+[    c-scripting-core] Creating script environments for vorp_outlaws
+[           resources] Started resource vorp_outlaws
+[    c-scripting-core] [0mCreating script environments for vorp_loot
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource vorp_loot
+[    c-scripting-core] [0mCreating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_sombra
+[           resources] Started resource nic_sombra
+[    c-scripting-core] [0mCreating script environments for nic_hud
+[           resources] Started resource nic_hud
+[    c-scripting-core] Creating script environments for nic_attach
+[           resources] Started resource nic_attach
+[    c-scripting-core] Creating script environments for nic_camera
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_camera
+[    c-scripting-core] Creating script environments for nic_lumber
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_lumber
+[    c-scripting-core] Creating script environments for nic_sticky_bomb
+[           resources] [0mStarted resource nic_sticky_bomb
+[    c-scripting-core] [0mCreating script environments for nic_speech
+[           resources] Started resource nic_speech
+[    c-scripting-core] Creating script environments for nic_consume_animals
+[           resources] Started resource nic_consume_animals
+[    c-scripting-core] Creating script environments for nic_ped_interact
+[           resources] Started resource nic_ped_interact
+[    c-scripting-core] Creating script environments for nic_inspect
+[           resources] Started resource nic_inspect
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+[resources:nic_guarma] Warning: could not find client_script `config.lua` (defined in fxmanifest.lua:7)
+[resources:nic_guarma] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource nic_guarma (2 warnings)
+[    c-scripting-core] Creating script environments for nic_shovel
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_shovel
+[    c-scripting-core] Creating script environments for nic_townportal
+[           resources] Started resource nic_townportal
+[    c-scripting-core] Creating script environments for nic_cigars
+[           resources] Started resource nic_cigars
+[    c-scripting-core] Creating script environments for nic_cook
+[           resources] Started resource nic_cook
+[    c-scripting-core] Creating script environments for nic_consumables
+[           resources] Started resource nic_consumables
+[           resources] Started resource nic_water_functions
+[           resources] Started resource nic_eat_plants
+[    c-scripting-core] Creating script environments for nic_fightclub
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_fightclub
+[    c-scripting-core] Creating script environments for nic_injury
+[           resources] Started resource nic_injury
+[    c-scripting-core] Creating script environments for nic_ladder
+[           resources] Started resource nic_ladder
+[    c-scripting-core] Creating script environments for nic_laydown_object
+[           resources] Started resource nic_laydown_object
+[    c-scripting-core] [0mCreating script environments for nic_make_fire
+[           resources] Started resource nic_make_fire
+[           resources] Started resource nic_prompts
+[    c-scripting-core] Creating script environments for nic_stores
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_stores
+[    c-scripting-core] Creating script environments for nic_tents
+[           resources] Started resource nic_tents
+[           resources] Started resource nic_ragdoll
+[    c-scripting-core] Creating script environments for nic_travel
+[           resources] Started resource nic_travel
+[    c-scripting-core] Creating script environments for nic_planting
+[           resources] Started resource nic_planting
+[    c-scripting-core] [0mCreating script environments for nic_wilson
+[           resources] Started resource nic_wilson
+[    c-scripting-core] Creating script environments for nic_horseitems
+[           resources] Started resource nic_horseitems
+[    c-scripting-core] Creating script environments for nic_messages
+[           resources] Started resource nic_messages
+[           resources] Started resource nic_3dwaypoint
+[    c-scripting-core] Creating script environments for nic_weather
+[           resources] Started resource nic_weather
+[           resources] Started resource nic_mapzones
+[    c-scripting-core] Creating script environments for nic_pee
+[           resources] Started resource nic_pee
+[           resources] Started resource nic_poop
+[           resources] Started resource court_house_bw_mlo
+[           resources] Started resource st_denis_pier_pub
+[           resources] Started resource mexican_port
+[38;5;83m[           resources] Started resource redm_mexico_map
+[           resources] Started resource thieves_landing_addon
+[    c-scripting-core] Creating script environments for ricx_mexico_hotel
+[           resources] Started resource ricx_mexico_hotel
+[           resources] Started resource zoli_mexico_camps_01
+[           resources] Started resource mexican_stables
+[ resources:nic_props] Warning: could not find file `stream/[addon]/capshield_c.ytyp` (defined in fxmanifest.lua:7)
+[           resources] Started resource nic_props (1 warning)
+[    c-scripting-core] [0mCreating script environments for 3dme
+[           resources] Started resource 3dme
+[    c-scripting-core] [0mCreating script environments for backpacks
+[           resources] Started resource backpacks
+[    c-scripting-core] Creating script environments for bathing
+[           resources] Started resource bathing
+[           resources] Started resource blips
+[    c-scripting-core] Creating script environments for bookat_cleangun
+[           resources] Started resource bookat_cleangun
+[    c-scripting-core] [0mCreating script environments for cart
+[           resources] Started resource cart
+[           resources] Started resource door_states
+[           resources] Started resource fred_coords
+[           resources] Started resource imaps
+[    c-scripting-core] Creating script environments for kcrp_boats_vorp
+[           resources] [0mStarted resource kcrp_boats_vorp
+[           resources] Started resource mapanimation
+[           resources] Started resource mapzoom
+[    c-scripting-core] [0mCreating script environments for pedmenu
+[           resources] [0mStarted resource pedmenu
+[           resources] Started resource progressbar
+[           resources] Started resource propgun
+[           resources] Started resource senglar_interact
+[    c-scripting-core] Creating script environments for syn_changingroom
+[           resources] Started resource syn_changingroom
+[    c-scripting-core] Creating script environments for wcrp_interaction
+[           resources] Started resource wcrp_interaction
+[    c-scripting-core] Creating script environments for utility
+Symbol file LoadedFromMemory is not a mono symbol file
+[      script:utility] Instantiated instance of script poke_utils_sv.LoadConfig.
+[38;5;136m[      script:utility] Instantiated instance of script poke_utils_sv.poke_utils_sv_init.
+[           resources] Started resource utility
+[      script:oxmysql] Database server connection established!
+[38;5;42m[      script:oxmysql] An update is available for oxmysql (current version: 2.7.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.7.5
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://neonsniper-erzjg3.users.cfx.re/
+[script:vorp_metaboli] Metabolism: Loading 5 items usables
+[    script:vorp_core] [0m###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ❌ Outdated (v2.2) - Update found: Version 2.4 (https://github.com/VORPCORE/vorp_admin)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_progressbar) ❌ Outdated (v1.1) - Update found: Version 1.2.0 (https://github.com/VORPCORE/vorp_progressbar)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_character) ❌ Outdated (v1.3) - Update found: Version 1.4 (https://github.com/VORPCORE/vorp_character-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.2) - Update found: Version 2.3 (https://github.com/VORPCORE/vorp-core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_ADMIN - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - NEW VERSION 2.4 security and fixes to events. 
+[    script:vorp_core] - double check for permissions due to RedM cheat menus  
+[    script:vorp_core] - secured heal event  
+[    script:vorp_core] - secured revive event 
+[    script:vorp_core] - fixed ban and unban events and secure them for offline actions 
+[    script:vorp_core] - NEW VERSION 2.3 Refactor server side  
+[    script:vorp_core] - refactor using new exports for new version inventory 
+[    script:vorp_core] - vorp core new callbacks support 
+[    script:vorp_core] - fix user table getGroup  
+[    script:vorp_core] - improved logic for removing staff from table of notify 
+[    script:vorp_core] - update vorp core vorp inventory if you havent yet.
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_PROGRESSBAR - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - progressBars support added (Remove progressBars if you have it installed
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CHARACTER - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added new character selection  
+[    script:vorp_core] - make sure to update all files and read the config file  
+[    script:vorp_core] - update fxmanifes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - in this new version  notifications were refactored and a new notify was introduced NotifyLeftRank. 
+[    script:vorp_core] - notifications can be used as exports for client side alternatively you can declare in your resources fxmanifest to use them direclty. 
+[    script:vorp_core] - callbacks have been refactored and was introduced exports for Async and Await triggers for both server and client as well as register new callbacks. 
+[    script:vorp_core] - everything old is still working for backwards compatibility rest assure.  
+[    script:vorp_core] - new folder was added with Annotation types for callbacks and notification exports. 
+[    script:vorp_core] - docs and vsc code extention will be soon updated check discord for more info on how to use these changes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_animations) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_banking) ✅ Up to date - Version 1.5
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_barbershop) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 3.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_clothingstores) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_crafting) ✅ Up to date - Version 1.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_fishing) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_hunting) ✅ Up to date - Version 1.0.4
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_mailbox) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_metabolism) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_outlaws) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_stables) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_walkanim) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_weaponsv2) ✅ Up to date - Version 2.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_zonenotify) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂NeonSniper＂,＂message＂:＂Server restarting (requested by NeonSniper).＂}"
+[      script:monitor] [97m[txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 9/28/2023, 7:24:25 AM              
+================================================================
+[38;5;83m[           resources] Scanning resources.
+[resources:moonshine_] Warning: moonshine_interiors exists in more than one place (C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[misc-resources]\[unread]\moonshine_interiors is used, the duplicate is C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[vorp-resources]\[essentials]\moonshine_interiors)
+[           resources] Found 199 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[38;5;83m[           resources] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[38;5;83m[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[38;5;83m[           resources] Started resource chat
+[38;5;83m[           resources] Started resource spawnmanager
+[38;5;154m[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[38;5;83m[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[           resources] [0mStarted resource vorp_menu
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource interiors
+[           resources] Started resource syn_minigame
+[    c-scripting-core] [0mCreating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] Started resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_progressbar
+[           resources] Started resource vorp_progressbar
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] [0mStarted resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_metabolism
+[           resources] Started resource vorp_metabolism
+[    c-scripting-core] Creating script environments for vorp_barbershop
+[           resources] Started resource vorp_barbershop
+[    c-scripting-core] Creating script environments for vorp_postman
+[ script:vorp_postman] vorp_postman: Language En.json loaded!
+[38;5;18m[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.LoadConfig.
+[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.vorp_postman_sv_init.
+[           resources] Started resource vorp_postman
+[    c-scripting-core] Creating script environments for vorp_hunting
+[           resources] [0mStarted resource vorp_hunting
+[    c-scripting-core] Creating script environments for vorp_stables
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.InitStables_Server.
+[ script:vorp_stables] vorp_stables: Language En.json loaded!
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.LoadConfig.
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.StableDataManagment.
+[           resources] Started resource vorp_stables
+[    c-scripting-core] Creating script environments for vorp_weaponsv2
+[           resources] Started resource vorp_weaponsv2
+[    c-scripting-core] Creating script environments for vorp_clothingstores
+[resources:vorp_cloth] [0mWarning: could not find shared_script `languages/*.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource vorp_clothingstores (1 warning)
+[    c-scripting-core] Creating script environments for vorp_fishing
+[           resources] Started resource vorp_fishing
+[    c-scripting-core] Creating script environments for vorp_housing
+[ script:vorp_housing] [0mInstantiated instance of script VORP.Housing.Shared.BasePluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.House.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.Room.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.HouseInventory.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Init.
+[38;5;132m[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.PluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Scripts.Manager.
+[           resources] Started resource vorp_housing
+[    c-scripting-core] Creating script environments for vorp_banking
+[           resources] Started resource vorp_banking
+[    c-scripting-core] [0mCreating script environments for vorp_mailbox
+[           resources] [0mStarted resource vorp_mailbox
+[    c-scripting-core] [0mCreating script environments for vorp_walkanim
+[           resources] [0mStarted resource vorp_walkanim
+[    c-scripting-core] Creating script environments for vorp_ml_policejob
+[           resources] Started resource vorp_ml_policejob
+[    c-scripting-core] Creating script environments for vorp_crafting
+[           resources] Started resource vorp_crafting
+[    c-scripting-core] Creating script environments for vorp_zonenotify
+[           resources] Started resource vorp_zonenotify
+[    c-scripting-core] Creating script environments for vorp_animations
+[38;5;83m[           resources] Started resource vorp_animations
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_outlaws
+[38;5;83m[           resources] Started resource vorp_outlaws
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_loot
+[38;5;227m[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[38;5;83m[           resources] Started resource vorp_loot
+[38;5;161m[    c-scripting-core] Creating script environments for nic_capshield
+[38;5;83m[           resources] Started resource nic_capshield
+[38;5;161m[    c-scripting-core] Creating script environments for nic_sombra
+[38;5;83m[           resources] Started resource nic_sombra
+[    c-scripting-core] Creating script environments for nic_hud
+[           resources] Started resource nic_hud
+[    c-scripting-core] Creating script environments for nic_attach
+[           resources] Started resource nic_attach
+[    c-scripting-core] Creating script environments for nic_camera
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_camera
+[    c-scripting-core] [0mCreating script environments for nic_lumber
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_lumber
+[    c-scripting-core] Creating script environments for nic_sticky_bomb
+[           resources] Started resource nic_sticky_bomb
+[    c-scripting-core] Creating script environments for nic_speech
+[           resources] Started resource nic_speech
+[    c-scripting-core] Creating script environments for nic_consume_animals
+[           resources] Started resource nic_consume_animals
+[    c-scripting-core] [0mCreating script environments for nic_ped_interact
+[           resources] Started resource nic_ped_interact
+[    c-scripting-core] Creating script environments for nic_inspect
+[           resources] Started resource nic_inspect
+[    c-scripting-core] [0mCreating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+[resources:nic_guarma] Warning: could not find client_script `config.lua` (defined in fxmanifest.lua:7)
+[resources:nic_guarma] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource nic_guarma (2 warnings)
+[    c-scripting-core] Creating script environments for nic_shovel
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_shovel
+[    c-scripting-core] Creating script environments for nic_townportal
+[           resources] Started resource nic_townportal
+[    c-scripting-core] Creating script environments for nic_cigars
+[           resources] Started resource nic_cigars
+[    c-scripting-core] Creating script environments for nic_cook
+[           resources] Started resource nic_cook
+[    c-scripting-core] Creating script environments for nic_consumables
+[           resources] Started resource nic_consumables
+[           resources] Started resource nic_water_functions
+[           resources] Started resource nic_eat_plants
+[    c-scripting-core] Creating script environments for nic_fightclub
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_fightclub
+[    c-scripting-core] Creating script environments for nic_injury
+[           resources] Started resource nic_injury
+[    c-scripting-core] Creating script environments for nic_ladder
+[           resources] Started resource nic_ladder
+[    c-scripting-core] Creating script environments for nic_laydown_object
+[           resources] Started resource nic_laydown_object
+[    c-scripting-core] Creating script environments for nic_make_fire
+[38;5;83m[           resources] Started resource nic_make_fire
+[           resources] Started resource nic_prompts
+[    c-scripting-core] [0mCreating script environments for nic_stores
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[38;5;83m[           resources] Started resource nic_stores
+[    c-scripting-core] Creating script environments for nic_tents
+[           resources] Started resource nic_tents
+[           resources] Started resource nic_ragdoll
+[    c-scripting-core] [0mCreating script environments for nic_travel
+[           resources] Started resource nic_travel
+[    c-scripting-core] Creating script environments for nic_planting
+[           resources] Started resource nic_planting
+[38;5;161m[    c-scripting-core] Creating script environments for nic_wilson
+[           resources] Started resource nic_wilson
+[    c-scripting-core] [0mCreating script environments for nic_horseitems
+[           resources] [0mStarted resource nic_horseitems
+[    c-scripting-core] [0mCreating script environments for nic_messages
+[           resources] [0mStarted resource nic_messages
+[           resources] Started resource nic_3dwaypoint
+[    c-scripting-core] Creating script environments for nic_weather
+[           resources] Started resource nic_weather
+[           resources] Started resource nic_mapzones
+[    c-scripting-core] Creating script environments for nic_pee
+[           resources] Started resource nic_pee
+[           resources] Started resource nic_poop
+[           resources] Started resource court_house_bw_mlo
+[           resources] Started resource st_denis_pier_pub
+[           resources] Started resource mexican_port
+[           resources] Started resource redm_mexico_map
+[           resources] Started resource thieves_landing_addon
+[    c-scripting-core] Creating script environments for ricx_mexico_hotel
+[           resources] Started resource ricx_mexico_hotel
+[           resources] Started resource zoli_mexico_camps_01
+[           resources] Started resource mexican_stables
+[ resources:nic_props] Warning: could not find file `stream/[addon]/capshield_c.ytyp` (defined in fxmanifest.lua:7)
+[38;5;83m[           resources] Started resource nic_props (1 warning)
+[    c-scripting-core] Creating script environments for 3dme
+[           resources] [0mStarted resource 3dme
+[    c-scripting-core] Creating script environments for backpacks
+[           resources] Started resource backpacks
+[    c-scripting-core] Creating script environments for bathing
+[           resources] Started resource bathing
+[           resources] Started resource blips
+[    c-scripting-core] Creating script environments for bookat_cleangun
+[           resources] Started resource bookat_cleangun
+[    c-scripting-core] Creating script environments for cart
+[           resources] Started resource cart
+[           resources] Started resource door_states
+[           resources] Started resource fred_coords
+[           resources] Started resource imaps
+[    c-scripting-core] Creating script environments for kcrp_boats_vorp
+[           resources] Started resource kcrp_boats_vorp
+[           resources] Started resource mapanimation
+[           resources] Started resource mapzoom
+[    c-scripting-core] Creating script environments for pedmenu
+[           resources] Started resource pedmenu
+[           resources] Started resource progressbar
+[           resources] Started resource propgun
+[           resources] Started resource senglar_interact
+[    c-scripting-core] Creating script environments for syn_changingroom
+[           resources] Started resource syn_changingroom
+[    c-scripting-core] Creating script environments for wcrp_interaction
+[           resources] Started resource wcrp_interaction
+[    c-scripting-core] Creating script environments for utility
+Symbol file LoadedFromMemory is not a mono symbol file
+[      script:utility] Instantiated instance of script poke_utils_sv.LoadConfig.
+[      script:utility] Instantiated instance of script poke_utils_sv.poke_utils_sv_init.
+[           resources] Started resource utility
+[      script:oxmysql] [0mDatabase server connection established!
+[38;5;42m[      script:oxmysql] An update is available for oxmysql (current version: 2.7.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.7.5
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://neonsniper-erzjg3.users.cfx.re/
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ❌ Outdated (v2.2) - Update found: Version 2.4 (https://github.com/VORPCORE/vorp_admin)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_progressbar) ❌ Outdated (v1.1) - Update found: Version 1.2.0 (https://github.com/VORPCORE/vorp_progressbar)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_character) ❌ Outdated (v1.3) - Update found: Version 1.4 (https://github.com/VORPCORE/vorp_character-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.2) - Update found: Version 2.3 (https://github.com/VORPCORE/vorp-core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_ADMIN - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - NEW VERSION 2.4 security and fixes to events. 
+[    script:vorp_core] - double check for permissions due to RedM cheat menus  
+[    script:vorp_core] - secured heal event  
+[    script:vorp_core] - secured revive event 
+[    script:vorp_core] - fixed ban and unban events and secure them for offline actions 
+[    script:vorp_core] - NEW VERSION 2.3 Refactor server side  
+[    script:vorp_core] - refactor using new exports for new version inventory 
+[    script:vorp_core] - vorp core new callbacks support 
+[    script:vorp_core] - fix user table getGroup  
+[    script:vorp_core] - improved logic for removing staff from table of notify 
+[    script:vorp_core] - update vorp core vorp inventory if you havent yet.
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_PROGRESSBAR - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - progressBars support added (Remove progressBars if you have it installed
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CHARACTER - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added new character selection  
+[    script:vorp_core] - make sure to update all files and read the config file  
+[    script:vorp_core] - update fxmanifes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - in this new version  notifications were refactored and a new notify was introduced NotifyLeftRank. 
+[    script:vorp_core] - notifications can be used as exports for client side alternatively you can declare in your resources fxmanifest to use them direclty. 
+[    script:vorp_core] - callbacks have been refactored and was introduced exports for Async and Await triggers for both server and client as well as register new callbacks. 
+[    script:vorp_core] - everything old is still working for backwards compatibility rest assure.  
+[    script:vorp_core] - new folder was added with Annotation types for callbacks and notification exports. 
+[    script:vorp_core] - docs and vsc code extention will be soon updated check discord for more info on how to use these changes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_animations) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_banking) ✅ Up to date - Version 1.5
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_barbershop) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 3.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_clothingstores) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_crafting) ✅ Up to date - Version 1.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_fishing) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_hunting) ✅ Up to date - Version 1.0.4
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_mailbox) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_metabolism) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_outlaws) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_stables) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_walkanim) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_weaponsv2) ✅ Up to date - Version 2.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_zonenotify) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[script:vorp_metaboli] Metabolism: Loading 5 items usables
+[      script:hardcap] Connecting: Nic
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 433 milliseconds
+[38;5;191m[ script:vorp_stables] Nic has no horses
+[38;5;191m[ script:vorp_stables] Nic has no complements
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂NeonSniper＂,＂message＂:＂Server restarting (requested by NeonSniper).＂}"
+[      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 9/28/2023, 7:32:19 AM              
+================================================================
+[38;5;83m[           resources] Scanning resources.
+[resources:moonshine_] Warning: moonshine_interiors exists in more than one place (C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[misc-resources]\[unread]\moonshine_interiors is used, the duplicate is C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[vorp-resources]\[essentials]\moonshine_interiors)
+[           resources] Found 199 resources.
+[           resources] 1 warning was encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[38;5;83m[           resources] Started resource yarn
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[           resources] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] [0mStarted gametype Freeroam
+[           resources] Started resource basic-gamemode
+[   script:mapmanager] Started map redm-map-one
+[           resources] Started resource redm-map-one
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[           resources] Started resource vorp_menu
+[    c-scripting-core] Creating script environments for weathersync
+[           resources] Started resource weathersync
+[           resources] Started resource interiors
+[           resources] [97mStarted resource syn_minigame
+[    c-scripting-core] Creating script environments for vorp_core
+[           resources] Started resource vorp_core
+[           resources] [97mStarted resource vorp_inputs
+[    c-scripting-core] Creating script environments for vorp_progressbar
+[           resources] Started resource vorp_progressbar
+[    c-scripting-core] Creating script environments for vorp_inventory
+[           resources] Started resource vorp_inventory
+[    c-scripting-core] Creating script environments for vorp_character
+[           resources] Started resource vorp_character
+[    c-scripting-core] Creating script environments for vorp_utils
+[           resources] Started resource vorp_utils
+[    c-scripting-core] Creating script environments for vorp_admin
+[           resources] Started resource vorp_admin
+[    c-scripting-core] Creating script environments for vorp_metabolism
+[           resources] Started resource vorp_metabolism
+[    c-scripting-core] Creating script environments for vorp_barbershop
+[           resources] Started resource vorp_barbershop
+[    c-scripting-core] Creating script environments for vorp_postman
+[38;5;18m[ script:vorp_postman] vorp_postman: Language En.json loaded!
+[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.LoadConfig.
+[ script:vorp_postman] Instantiated instance of script vorp_postman_sv.vorp_postman_sv_init.
+[           resources] Started resource vorp_postman
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_hunting
+[38;5;83m[           resources] Started resource vorp_hunting
+[38;5;161m[    c-scripting-core] Creating script environments for vorp_stables
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.InitStables_Server.
+[ script:vorp_stables] vorp_stables: Language En.json loaded!
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.LoadConfig.
+[ script:vorp_stables] Instantiated instance of script VORP.Stables.Server.StableDataManagment.
+[           resources] Started resource vorp_stables
+[    c-scripting-core] Creating script environments for vorp_weaponsv2
+[           resources] [0mStarted resource vorp_weaponsv2
+[    c-scripting-core] Creating script environments for vorp_clothingstores
+[resources:vorp_cloth] Warning: could not find shared_script `languages/*.lua` (defined in fxmanifest.lua:20)
+[           resources] Started resource vorp_clothingstores (1 warning)
+[    c-scripting-core] [0mCreating script environments for vorp_fishing
+[           resources] Started resource vorp_fishing
+[    c-scripting-core] Creating script environments for vorp_housing
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.BasePluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.House.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Shared.Models.Room.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.HouseInventory.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Init.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.PluginManager.
+[ script:vorp_housing] Instantiated instance of script VORP.Housing.Server.Scripts.Manager.
+[           resources] Started resource vorp_housing
+[    c-scripting-core] [0mCreating script environments for vorp_banking
+[           resources] Started resource vorp_banking
+[    c-scripting-core] [0mCreating script environments for vorp_mailbox
+[           resources] Started resource vorp_mailbox
+[    c-scripting-core] Creating script environments for vorp_walkanim
+[           resources] Started resource vorp_walkanim
+[    c-scripting-core] Creating script environments for vorp_ml_policejob
+[           resources] Started resource vorp_ml_policejob
+[    c-scripting-core] Creating script environments for vorp_crafting
+[           resources] Started resource vorp_crafting
+[    c-scripting-core] Creating script environments for vorp_zonenotify
+[           resources] Started resource vorp_zonenotify
+[    c-scripting-core] Creating script environments for vorp_animations
+[           resources] Started resource vorp_animations
+[    c-scripting-core] Creating script environments for vorp_outlaws
+[           resources] Started resource vorp_outlaws
+[    c-scripting-core] Creating script environments for vorp_loot
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] [0mStarted resource vorp_loot
+[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_sombra
+[           resources] Started resource nic_sombra
+[    c-scripting-core] Creating script environments for nic_hud
+[           resources] [0mStarted resource nic_hud
+[    c-scripting-core] Creating script environments for nic_attach
+[           resources] Started resource nic_attach
+[    c-scripting-core] Creating script environments for nic_camera
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_camera
+[    c-scripting-core] Creating script environments for nic_lumber
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_lumber
+[    c-scripting-core] [0mCreating script environments for nic_sticky_bomb
+[           resources] Started resource nic_sticky_bomb
+[    c-scripting-core] Creating script environments for nic_speech
+[           resources] Started resource nic_speech
+[    c-scripting-core] Creating script environments for nic_consume_animals
+[           resources] Started resource nic_consume_animals
+[    c-scripting-core] Creating script environments for nic_ped_interact
+[           resources] Started resource nic_ped_interact
+[    c-scripting-core] Creating script environments for nic_inspect
+[           resources] Started resource nic_inspect
+[    c-scripting-core] [0mCreating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+[resources:nic_guarma] Warning: could not find client_script `config.lua` (defined in fxmanifest.lua:7)
+[resources:nic_guarma] Warning: could not find server_script `server.lua` (defined in fxmanifest.lua:12)
+[           resources] Started resource nic_guarma (2 warnings)
+[    c-scripting-core] [0mCreating script environments for nic_shovel
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_shovel
+[    c-scripting-core] Creating script environments for nic_townportal
+[           resources] Started resource nic_townportal
+[    c-scripting-core] Creating script environments for nic_cigars
+[           resources] Started resource nic_cigars
+[    c-scripting-core] Creating script environments for nic_cook
+[           resources] Started resource nic_cook
+[    c-scripting-core] Creating script environments for nic_consumables
+[           resources] Started resource nic_consumables
+[           resources] Started resource nic_water_functions
+[           resources] Started resource nic_eat_plants
+[    c-scripting-core] Creating script environments for nic_fightclub
+[    script:vorp_core] [0mJUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] [0mStarted resource nic_fightclub
+[    c-scripting-core] Creating script environments for nic_injury
+[           resources] Started resource nic_injury
+[    c-scripting-core] Creating script environments for nic_ladder
+[           resources] Started resource nic_ladder
+[    c-scripting-core] [0mCreating script environments for nic_laydown_object
+[           resources] Started resource nic_laydown_object
+[    c-scripting-core] Creating script environments for nic_make_fire
+[           resources] Started resource nic_make_fire
+[           resources] Started resource nic_prompts
+[    c-scripting-core] Creating script environments for nic_stores
+[    script:vorp_core] JUST A WARNING: this are deprecated API please refer to api docs to use new ones.
+[           resources] Started resource nic_stores
+[    c-scripting-core] Creating script environments for nic_tents
+[           resources] Started resource nic_tents
+[           resources] Started resource nic_ragdoll
+[    c-scripting-core] Creating script environments for nic_travel
+[           resources] Started resource nic_travel
+[    c-scripting-core] Creating script environments for nic_planting
+[           resources] [0mStarted resource nic_planting
+[    c-scripting-core] [0mCreating script environments for nic_wilson
+[           resources] Started resource nic_wilson
+[    c-scripting-core] [0mCreating script environments for nic_horseitems
+[           resources] Started resource nic_horseitems
+[    c-scripting-core] [0mCreating script environments for nic_messages
+[           resources] Started resource nic_messages
+[           resources] Started resource nic_3dwaypoint
+[    c-scripting-core] Creating script environments for nic_weather
+[           resources] Started resource nic_weather
+[           resources] Started resource nic_mapzones
+[    c-scripting-core] Creating script environments for nic_pee
+[           resources] Started resource nic_pee
+[           resources] Started resource nic_poop
+[           resources] Started resource court_house_bw_mlo
+[           resources] Started resource st_denis_pier_pub
+[           resources] Started resource mexican_port
+[38;5;83m[           resources] Started resource redm_mexico_map
+[           resources] Started resource thieves_landing_addon
+[    c-scripting-core] Creating script environments for ricx_mexico_hotel
+[           resources] Started resource ricx_mexico_hotel
+[           resources] Started resource zoli_mexico_camps_01
+[           resources] Started resource mexican_stables
+[ resources:nic_props] [0mWarning: could not find file `stream/[addon]/capshield_c.ytyp` (defined in fxmanifest.lua:7)
+[           resources] Started resource nic_props (1 warning)
+[    c-scripting-core] Creating script environments for 3dme
+[           resources] Started resource 3dme
+[    c-scripting-core] Creating script environments for backpacks
+[           resources] Started resource backpacks
+[    c-scripting-core] Creating script environments for bathing
+[           resources] [0mStarted resource bathing
+[           resources] Started resource blips
+[    c-scripting-core] Creating script environments for bookat_cleangun
+[           resources] Started resource bookat_cleangun
+[    c-scripting-core] Creating script environments for cart
+[           resources] Started resource cart
+[           resources] Started resource door_states
+[           resources] Started resource fred_coords
+[           resources] Started resource imaps
+[    c-scripting-core] Creating script environments for kcrp_boats_vorp
+[           resources] Started resource kcrp_boats_vorp
+[           resources] Started resource mapanimation
+[           resources] Started resource mapzoom
+[    c-scripting-core] Creating script environments for pedmenu
+[           resources] Started resource pedmenu
+[           resources] Started resource progressbar
+[           resources] Started resource propgun
+[           resources] Started resource senglar_interact
+[    c-scripting-core] Creating script environments for syn_changingroom
+[           resources] Started resource syn_changingroom
+[    c-scripting-core] Creating script environments for wcrp_interaction
+[           resources] Started resource wcrp_interaction
+[    c-scripting-core] Creating script environments for utility
+Symbol file LoadedFromMemory is not a mono symbol file
+[      script:utility] Instantiated instance of script poke_utils_sv.LoadConfig.
+[      script:utility] Instantiated instance of script poke_utils_sv.poke_utils_sv_init.
+[           resources] Started resource utility
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] An update is available for oxmysql (current version: 2.7.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.7.5
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://neonsniper-erzjg3.users.cfx.re/
+[script:vorp_metaboli] Metabolism: Loading 5 items usables
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] 
+[    script:vorp_core] ----- #RedM ----------------------------------------------------------------------
+[    script:vorp_core]  /##    /##  /######  /#######  /#######   /######   /######  /#######  /########
+[    script:vorp_core] | ##   | ## /##__  ##| ##__  ##| ##__  ## /##__  ## /##__  ##| ##__  ##| ##_____/
+[    script:vorp_core] | ##   | ##| ##  | ##| ##  | ##| ##  | ##| ##  |__/| ##  | ##| ##  | ##| ##      
+[    script:vorp_core] |  ## / ##/| ##  | ##| #######/| #######/| ##      | ##  | ##| #######/| #####   
+[    script:vorp_core]  |  ## ##/ | ##  | ##| ##__  ##| ##____/ | ##      | ##  | ##| ##__  ##| ##__/   
+[    script:vorp_core]   |  ###/  | ##  | ##| ##  | ##| ##      | ##    ##| ##  | ##| ##  | ##| ##      
+[    script:vorp_core]    |  #/   |  ######/| ##  | ##| ##      |  ######/|  ######/| ##  | ##| ########
+[    script:vorp_core]     |_/     |______/ |__/  |__/|__/       |______/  |______/ |__/  |__/|________/
+[    script:vorp_core] ----------------------------------------------------VORPcore Framework Lua -----
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Version check 
+[    script:vorp_core] Resources found
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_admin) ❌ Outdated (v2.2) - Update found: Version 2.4 (https://github.com/VORPCORE/vorp_admin)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_progressbar) ❌ Outdated (v1.1) - Update found: Version 1.2.0 (https://github.com/VORPCORE/vorp_progressbar)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_character) ❌ Outdated (v1.3) - Update found: Version 1.4 (https://github.com/VORPCORE/vorp_character-lua)
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_core) ❌ Outdated (v2.2) - Update found: Version 2.3 (https://github.com/VORPCORE/vorp-core-lua)
+[    script:vorp_core] 
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_ADMIN - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - NEW VERSION 2.4 security and fixes to events. 
+[    script:vorp_core] - double check for permissions due to RedM cheat menus  
+[    script:vorp_core] - secured heal event  
+[    script:vorp_core] - secured revive event 
+[    script:vorp_core] - fixed ban and unban events and secure them for offline actions 
+[    script:vorp_core] - NEW VERSION 2.3 Refactor server side  
+[    script:vorp_core] - refactor using new exports for new version inventory 
+[    script:vorp_core] - vorp core new callbacks support 
+[    script:vorp_core] - fix user table getGroup  
+[    script:vorp_core] - improved logic for removing staff from table of notify 
+[    script:vorp_core] - update vorp core vorp inventory if you havent yet.
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_PROGRESSBAR - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - progressBars support added (Remove progressBars if you have it installed
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CHARACTER - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - added new character selection  
+[    script:vorp_core] - make sure to update all files and read the config file  
+[    script:vorp_core] - update fxmanifes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] VORP_CORE - Changelog:
+[    script:vorp_core]  
+[    script:vorp_core] - in this new version  notifications were refactored and a new notify was introduced NotifyLeftRank. 
+[    script:vorp_core] - notifications can be used as exports for client side alternatively you can declare in your resources fxmanifest to use them direclty. 
+[    script:vorp_core] - callbacks have been refactored and was introduced exports for Async and Await triggers for both server and client as well as register new callbacks. 
+[    script:vorp_core] - everything old is still working for backwards compatibility rest assure.  
+[    script:vorp_core] - new folder was added with Annotation types for callbacks and notification exports. 
+[    script:vorp_core] - docs and vsc code extention will be soon updated check discord for more info on how to use these changes
+[    script:vorp_core] ###############################
+[    script:vorp_core] 
+[    script:vorp_core] ###############################################################################
+[    script:vorp_core] Resource version Check (vorp_animations) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_banking) ✅ Up to date - Version 1.5
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_barbershop) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inventory) ✅ Up to date - Version 3.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_clothingstores) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_crafting) ✅ Up to date - Version 1.6
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_fishing) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_hunting) ✅ Up to date - Version 1.0.4
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_mailbox) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_metabolism) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_outlaws) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_stables) ✅ Up to date - Version 1.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_walkanim) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_weaponsv2) ✅ Up to date - Version 2.1
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_zonenotify) ✅ Up to date - Version 1.0
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_inputs) ✅ Up to date - Version 1.2
+[    script:vorp_core] 
+[    script:vorp_core] Resource version Check (vorp_utils) ✅ Up to date - Version 1.1.1
+[    script:vorp_core] 
+[    script:vorp_core] 
+[    script:vorp_core] VORPcore Database Auto Updater 
+[    script:vorp_core] 
+[    script:vorp_core] Database Auto Updater (MariaDB)✅ Database is up to date
+[    script:vorp_core] ###############################################################################
+[      script:hardcap] Connecting: Nic
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 520 milliseconds
+[ script:vorp_stables] [0mNic has no horses
+[ script:vorp_stables] [0mNic has no complements
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:adobo_recipe
+[    script:vorp_core] adobo_recipe < item dont exist in the database	4000
+> refresh
+[           resources] Scanning resources.
+[resources:moonshine_] [93mWarning: moonshine_interiors exists in more than one place (C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[misc-resources]\[unread]\moonshine_interiors is used, the duplicate is C:\Users\admin\Desktop\redm\txData\katipunanvorp\resources\[vorp-resources]\[essentials]\moonshine_interiors)
+[           resources] Found 0 new resources, and refreshed 1/199 resources.[0m
+[           resources] 1 warning was encountered.
+> restart nic_defaults
+[38;5;83m[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[38;5;83m[           resources] Started resource nic_defaults
+> restart nic_defaults
+[38;5;83m[           resources] Stopping resource nic_defaults
+[38;5;161m[    c-scripting-core] Creating script environments for nic_defaults
+[38;5;83m[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[38;5;83m[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] [0mCreating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] [0mCreating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_defaults
+[           resources] Stopping resource nic_defaults
+[    c-scripting-core] Creating script environments for nic_defaults
+[           resources] Started resource nic_defaults
+> restart nic_capshield
+[38;5;83m[           resources] Stopping resource nic_capshield
+[38;5;161m[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+> restart nic_capshield
+[           resources] Stopping resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] [0mStarted resource nic_capshield
+> restart nic_capshield
+[38;5;83m[           resources] Stopping resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+> restart nic_capshield
+[38;5;83m[           resources] Stopping resource nic_capshield
+[38;5;161m[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+> restart nic_capshield
+[           resources] Stopping resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+> restart nic_capshield
+[           resources] Stopping resource nic_capshield
+[    c-scripting-core] Creating script environments for nic_capshield
+[           resources] Started resource nic_capshield
+[      script:hardcap] Connecting: Kidlat Talinhaga
+[38;5;191m[ script:vorp_stables] Kidlat Talinhaga has no complements
+[38;5;191m[ script:vorp_stables] Kidlat Talinhaga has no horses
+[script:vorp_inventor] SCRIPT ERROR: @vorp_inventory/server/services/inventoryApiService.lua:940: attempt to index a nil value (local 'weapon')
+[script:vorp_inventor] > ref (@vorp_inventory/vorpInventoryApi.lua:101)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:81)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:71)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:68)
+[script:vorp_inventor] > handler (@vorp_core/server/sv_apicontroller.lua:36)
+[script:vorp_inventor] > handler (@nic_stores/server.lua:62)
+[      script:hardcap] Connecting: Kidlat Talinhaga
+[38;5;191m[ script:vorp_stables] Kidlat Talinhaga has no complements
+[38;5;191m[ script:vorp_stables] Kidlat Talinhaga has no horses
+[script:vorp_inventor] [0mSCRIPT ERROR: @vorp_inventory/server/services/inventoryApiService.lua:940: attempt to index a nil value (local 'weapon')
+[script:vorp_inventor] > ref (@vorp_inventory/vorpInventoryApi.lua:101)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:81)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:71)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:68)
+[script:vorp_inventor] > handler (@vorp_core/server/sv_apicontroller.lua:36)
+[script:vorp_inventor] > handler (@nic_stores/server.lua:62)
+[      script:hardcap] [0mConnecting: Nic
+[      script:hardcap] Connecting: Nic
+[38;5;191m[ script:vorp_stables] Nic has no complements
+[38;5;191m[ script:vorp_stables] Nic has no horses
+[      script:hardcap] Connecting: Nic
+[38;5;191m[ script:vorp_stables] Nic has no horses
+[ script:vorp_stables] Nic has no complements
+[script:vorp_inventor] SCRIPT ERROR: @vorp_inventory/server/services/inventoryApiService.lua:940: attempt to index a nil value (local 'weapon')
+[script:vorp_inventor] > ref (@vorp_inventory/vorpInventoryApi.lua:101)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:81)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:71)
+[script:vorp_inventor] > [global chunk] (@vorp_inventory/server/services/inventoryApiService.lua:52)
+[script:vorp_inventor] > ref (@nic_stores/server.lua:68)
+[script:vorp_inventor] > handler (@vorp_core/server/sv_apicontroller.lua:36)
+[script:vorp_inventor] > handler (@nic_stores/server.lua:62)
+[         script:3dme] SCRIPT ERROR: @3dme/server.lua:18: attempt to concatenate a nil value (local 'content')
+[         script:3dme] > setLog (@3dme/server.lua:18)
+[         script:3dme] > handler (@3dme/server.lua:7)
+[         script:3dme] SCRIPT ERROR: @3dme/server.lua:18: attempt to concatenate a nil value (local 'content')
+[         script:3dme] > setLog (@3dme/server.lua:18)
+[         script:3dme] > handler (@3dme/server.lua:7)
+[         script:3dme] SCRIPT ERROR: @3dme/server.lua:18: attempt to concatenate a nil value (local 'content')
+[         script:3dme] > setLog (@3dme/server.lua:18)
+[         script:3dme] > handler (@3dme/server.lua:7)
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitCricket01x
+[38;5;227m[    script:vorp_core] p_baitCricket01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitCricket01x
+[38;5;227m[    script:vorp_core] p_baitCricket01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitCricket01x
+[38;5;227m[    script:vorp_core] p_baitCricket01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitCricket01x
+[38;5;227m[    script:vorp_core] p_baitCricket01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitWorm01x
+[38;5;227m[    script:vorp_core] p_baitWorm01x < item dont exist in the database	4000
+[script:vorp_inventor] Item does not exist in Items table. Item:p_baitWorm01x
+[    script:vorp_core] p_baitWorm01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitWorm01x
+[38;5;227m[    script:vorp_core] p_baitWorm01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitWorm01x
+[    script:vorp_core] p_baitWorm01x < item dont exist in the database	4000
+[38;5;223m[script:vorp_inventor] Item does not exist in Items table. Item:p_baitCricket01x
+[38;5;227m[    script:vorp_core] p_baitCricket01x < item dont exist in the database	4000

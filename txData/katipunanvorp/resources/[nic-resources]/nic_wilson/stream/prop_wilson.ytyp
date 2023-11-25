@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="100" />
+      <flags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.22068" y="-0.1531" z="-0.1196" />
+      <bbMax x="0.14589" y="0.15899" z="0.3643" />
+      <bsCentre x="-0.037395" y="0.002945" z="0.12235" />
+      <bsRadius value="0.341296" />
+      <hdTextureDist value="75.384" />
+      <name>prop_wilson</name>
+      <textureDictionary>prop_wilson</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_wilson</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>prop_wilson</name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Nic</CreatedBy>
+</CMapTypes>

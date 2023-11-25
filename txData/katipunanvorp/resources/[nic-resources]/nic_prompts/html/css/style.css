@@ -1,0 +1,219 @@
+*{	
+	overflow: hidden;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This css centers at the middle of the screen */
+
+.top{
+	display: none;
+	margin-top: 45px;
+}
+
+.side{
+	display: none;
+	margin-top: 170px;
+	margin-right: 115px;
+}
+
+.bottom{
+	display: none;
+	margin-bottom: 45px;
+	align-self: flex-end;
+}
+
+#container-top {
+	position: fixed;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#poster{
+	z-index: 9 !important;
+}
+
+#container-side {
+	position: fixed;
+	margin-top: 54px;
+	margin-left: -15px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#container-bottom {
+	z-index: 12 !important;
+	position: fixed;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+}
+
+#wolverine_overlay {
+	z-index: -1 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("wolverine_overlay.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#focus_overlay {
+	z-index: -1 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("focus_prompt.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#pym_overlay {
+	z-index: -1 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("pym_overlay.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#overlay {
+	z-index: 0 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("overlay.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#old_film_overlay {
+	z-index: 0 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("old_film.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#bounty_overlay {
+	z-index: 0 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("bounty_overlay.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#butcher_overlay {
+	z-index: 0 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("butcher_overlay.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#bicol_overlay {
+	z-index: 0 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("bicol_overlay.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+#tired_prompt {
+	z-index: 0 !important;
+	position: fixed;
+    height: 100%;
+	width: 100%;
+	background-image: url("tired_prompt.png");
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.small {
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 1600px) and (max-height: 1024px) {
+	.side{
+		margin-top: 152px;
+		margin-right: 92px;
+	}
+}
+
+
+@media only screen and (max-width: 1600px) and (max-height: 900px) {
+	.side{
+		margin-top: 122px;
+		margin-right: 87px;
+	}
+}
+
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+	.side{
+		margin-top: 98px;
+		margin-right: 62px;
+	}
+}

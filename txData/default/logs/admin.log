@@ -1,0 +1,136 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6721 Starting - 9/27/2023, 4:24:52 AM
+================================================================
+[04:25:29][NeonSniper] created admins file
+[04:26:50][NeonSniper] Changing global settings via setup stepper and started Deployer.
+[04:26:57][NeonSniper] Setting recipe.
+[04:27:43][NeonSniper] Running recipe.
+[04:28:21][NeonSniper] Completed and committed server deploy.
+[04:33:36][NeonSniper] executed "RESTART SERVER"
+[06:41:12][NeonSniper] executed "RESTART SERVER"
+[06:46:30][NeonSniper] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6721 Starting - 9/27/2023, 6:50:13 AM
+================================================================
+[06:50:51][NeonSniper] logged in from 127.0.0.1 via citizenfx
+[06:54:19][NeonSniper] executed "RESTART SERVER"
+[08:16:39][NeonSniper] executed "RESTART SERVER"
+[08:27:05][NeonSniper] executed "stop vorp_inventory"
+[08:30:45][NeonSniper] executed "addgroup 2 admin 0"
+[08:33:02][NeonSniper] executed "refresh"
+[08:33:07][NeonSniper] executed "start vorp_inventory"
+[08:35:01][NeonSniper] executed "stop "vorp_inventory""
+[08:35:47][NeonSniper] Adding admin 'KCFudge'.
+[08:35:47][KCFudge] logged in via in-game ui
+[08:36:26][NeonSniper] Adding admin 'Kim'.
+[08:36:26][KCFudge] logged in via in-game ui
+[08:36:51][NeonSniper] Adding admin 'Nic'.
+[08:36:52][KCFudge] logged in via in-game ui
+[08:36:52][Nic] logged in via in-game ui
+[08:37:12][NeonSniper] Adding admin 'Batang'.
+[08:37:12][Batang] logged in via in-game ui
+[08:37:12][KCFudge] logged in via in-game ui
+[08:37:12][Nic] logged in via in-game ui
+[08:37:50][NeonSniper] executed "RESTART SERVER"
+[08:39:06][KCFudge] logged in via in-game ui
+[08:39:13][Nic] logged in via in-game ui
+[08:39:31][Batang] logged in via in-game ui
+[08:39:45][KCFudge] logged in from via NUI iframe
+[08:41:49][NeonSniper] executed "restart vorp_inventory"
+[08:42:04][NeonSniper] executed "restart vorp_inventory"
+[08:42:49][Batang] logged in from via NUI iframe
+[08:44:40][Batang] logged in from via NUI iframe
+[08:44:40][Batang] logged in from via NUI iframe
+[08:45:02][Nic] logged in from via NUI iframe
+[08:57:28][NeonSniper] executed "restart vorp_inventory"
+[08:58:26][NeonSniper] executed "restart vorp_inventory"
+[08:58:39][NeonSniper] executed "refresh"
+[08:58:41][NeonSniper] executed "restart vorp_inventory"
+[08:58:52][NeonSniper] executed "restart vorp_inventory"
+[09:00:53][NeonSniper] executed "restart vorp_inventory"
+[09:00:57][NeonSniper] executed "restart nic_defaults"
+[09:05:31][Batang] Sending announcement: BOBO
+[09:05:41][Batang] logged in from via NUI iframe
+[09:10:27][NeonSniper] executed "RESTART SERVER"
+[09:10:41][NeonSniper] executed "STOP SERVER"
+[09:11:15][NeonSniper] executed "RESTART SERVER"
+[09:11:16][NeonSniper] executed "START SERVER"
+[09:11:42][NeonSniper] executed "RESTART SERVER"
+[09:12:14][Batang] logged in via in-game ui
+[09:12:18][KCFudge] logged in via in-game ui
+[09:12:21][Nic] logged in via in-game ui
+[09:21:55][Nic] logged in via in-game ui
+[09:50:09][NeonSniper] executed "STOP SERVER"
+[21:53:03][NeonSniper] executed "START SERVER"
+[21:53:07][NeonSniper] executed "RESTART SERVER"
+[21:54:29][Nic] logged in via in-game ui
+[22:16:14][NeonSniper] executed "RESTART SERVER"
+[22:17:13][NeonSniper] executed "RESTART SERVER"
+[22:20:10][NeonSniper] executed "RESTART SERVER"
+[22:22:42][NeonSniper] executed "RESTART SERVER"
+[22:24:29][Nic] logged in via in-game ui
+[22:36:56][NeonSniper] executed "RESTART SERVER"
+[22:38:39][Nic] logged in via in-game ui
+[22:40:15][NeonSniper] executed "restart nic_hud"
+[22:48:41][NeonSniper] executed "restart nic_hud"
+[22:49:04][NeonSniper] executed "restart nic_hud"
+[22:57:22][NeonSniper] executed "restart nic_hud"
+[22:59:07][NeonSniper] executed "restart vorp_inventory"
+[23:01:54][NeonSniper] executed "restart chat"
+[23:02:17][NeonSniper] executed "RESTART SERVER"
+[23:03:35][Nic] logged in via in-game ui
+[23:07:11][NeonSniper] executed "restart nic_eat_plants"
+[23:08:45][NeonSniper] executed "restart vorp_inventory"
+[23:08:57][NeonSniper] executed "start vorp_inventory"
+[23:09:52][NeonSniper] executed "start vorp_inventory"
+[23:10:05][NeonSniper] executed "start vorp_inventory"
+[23:10:43][NeonSniper] executed "RESTART SERVER"
+[23:13:23][NeonSniper] executed "RESTART SERVER"
+[23:14:30][Nic] logged in via in-game ui
+[23:37:17][NeonSniper] executed "restart nic_hud"
+[23:37:25][NeonSniper] executed "restart vorp_inventory"
+[06:34:45][NeonSniper] executed "RESTART SERVER"
+[06:35:40][Nic] logged in via in-game ui
+[06:53:53][NeonSniper] executed "restart nic_fightclub"
+[07:00:42][NeonSniper] executed "restart nic_fightclub"
+[07:04:04][NeonSniper] executed "start nic_antman"
+[07:06:08][NeonSniper] executed "restart nic_antman"
+[07:06:31][NeonSniper] executed "restart nic_antman"
+[07:09:35][NeonSniper] executed "stop nic_antman"
+[07:09:39][NeonSniper] executed "start nic_lycan"
+[07:12:38][NeonSniper] executed "weatherui"
+[07:12:47][NeonSniper] executed "addGroup 1 admin"
+[07:17:42][NeonSniper] logged in from 127.0.0.1 via citizenfx
+[07:17:42][Nic] logged in via in-game ui
+[07:17:45][NeonSniper] executed "RESTART SERVER"
+[07:19:13][Nic] logged in via in-game ui
+[07:23:49][NeonSniper] executed "RESTART SERVER"
+[07:24:19][NeonSniper] executed "RESTART SERVER"
+[07:25:41][Nic] logged in via in-game ui
+[07:32:13][NeonSniper] executed "RESTART SERVER"
+[07:35:53][Nic] logged in via in-game ui
+[08:35:59][NeonSniper] executed "refresh"
+[08:36:07][NeonSniper] executed "restart nic_defaults"
+[08:38:37][NeonSniper] executed "restart nic_defaults"
+[08:39:09][NeonSniper] executed "restart nic_defaults"
+[08:40:39][NeonSniper] executed "restart nic_defaults"
+[08:41:04][NeonSniper] executed "restart nic_defaults"
+[08:43:37][NeonSniper] executed "restart nic_defaults"
+[08:44:37][NeonSniper] executed "restart nic_defaults"
+[08:45:13][NeonSniper] executed "restart nic_defaults"
+[08:46:03][NeonSniper] executed "restart nic_defaults"
+[08:46:53][NeonSniper] executed "restart nic_defaults"
+[08:47:34][NeonSniper] executed "restart nic_defaults"
+[08:49:49][NeonSniper] executed "restart nic_defaults"
+[09:05:51][NeonSniper] executed "restart nic_capshield"
+[09:09:04][NeonSniper] executed "restart nic_capshield"
+[09:10:05][NeonSniper] executed "restart nic_capshield"
+[09:11:40][NeonSniper] executed "restart nic_capshield"
+[09:13:18][NeonSniper] executed "restart nic_capshield"
+[09:15:07][NeonSniper] executed "restart nic_capshield"
+[09:22:23][KCFudge] logged in via in-game ui
+[09:25:14][KCFudge] logged in via in-game ui
+[09:30:39][Nic] logged in via in-game ui
+[09:57:23][Nic] logged in via in-game ui

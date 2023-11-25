@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html onmousedown="rightClick(event)">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    </head>
+    <body>
+        
+        <main class="main-player-menu">
+
+            <div class="side-gradient">
+                <div class="wrapper">
+                    <button id="close" class="action close">
+                        x
+                    </button>
+                    <div class="c-line">
+                        <img src="assets/img/c-line-alt.png" alt="">
+                    </div>
+                    <button id="sleep" class="action">
+                        <img src="assets/img/sleep.png" alt="">
+                    </button>
+                    <button id="standby" class="action">
+                        <img src="assets/img/standby.png" alt="">
+                    </button>
+                    <button id="sit" class="action">
+                        <img src="assets/img/sitting.png" alt="">
+                    </button>
+                    <button id="pee" class="action">
+                        <img src="assets/img/pee.png" alt="">
+                    </button>
+                    <button id="poop" class="action">
+                        <img src="assets/img/poop.png" alt="">
+                    </button>
+                    <div class="c-line">
+                        <img src="assets/img/c-line.png" alt="">
+                    </div>
+                    <button id="emotes" class="action">
+                        <img src="assets/img/anims.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="wake-container">
+                <img src="assets/img/symbol_01.png" class="mb-1 symbol_01" alt="">
+                <button id="wakeup" class="c-button">
+                    Wake Up
+                </button>
+            </div>
+
+        </main>
+        
+        <!-- <script src="" async defer></script> -->
+        <script src="assets/js/script.js"></script>
+        <script>
+            function rightClick(event) {
+                if(event.button === 2){
+                    $.post('http://nic_player_menu/player_menu_close', JSON.stringify({}), () => {});
+                    $(".main").fadeOut();
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+	<style type="text/css">
+		@font-face {
+		font-family: chineserocks;
+		src: url(chineserocks.ttf);
+		}	
+
+		body{
+			/* background: green; */
+		}
+		#mina {
+    		padding-bottom: 45px;
+			display: none;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		$(function(){
+			window.onload = (e) => { 
+				window.addEventListener('message', (event) => {	            
+					var item = event.data;
+					if (item !== undefined && item.type === "ui") {		                
+						if (item.display === true) {
+							doDisplay = true
+		                    $("#mina").show();
+							var start = new Date();
+							var maxTime = item.time;
+							var text = item.text;
+							var timeoutVal = Math.floor(maxTime/100);
+							animateUpdate();
+
+							$('#pbar_innertext').text(text);
+
+							function updateProgress(percentage) {
+							    $('#pbar_innerdiv').css("width", percentage + "%");
+							}
+
+							function animateUpdate() {
+								var now = new Date();
+								var timeDiff = now.getTime() - start.getTime();
+								var perc = Math.round((timeDiff/maxTime)*100);
+								if (perc <= 100 && doDisplay === true) {
+									updateProgress(perc);
+									setTimeout(animateUpdate, timeoutVal);
+									$('#pbar_innertextperc').text(perc + "%");
+								} else {
+									$("#mina").hide();
+								}
+							}
+
+
+						} else {
+							doDisplay = false;
+		                    $("#mina").hide();
+		                }
+					}
+				});
+			};
+		});
+	</script>
+
+	<div id="mina">
+		<div id="pbar_outerdiv" style=		
+		"margin-top: 45.5%;
+		padding: 5px;
+		left: 42.5%;
+		background-image: url(container.png);
+		background-size: cover;
+		background-position: center;
+		width: 230px;
+		height: 18px;
+		z-index: 1;
+		-webkit-box-shadow: 0px 0px 26px 4px rgba(0,0,0,0.4);
+		-moz-box-shadow: 0px 0px 26px 4px rgba(0,0,0,0.4);
+		box-shadow: 0px 0px 26px 4px rgba(0,0,0,0.4);
+		position: relative;"
+		">
+			<div id="pbar_innerdiv" style="
+			background-image: url(progress.png);
+			background-size: cover;
+			background-position: right;
+			z-index: 2; height: 100%; width: 0%;-webkit-box-shadow: inset 9px -11px 7px -11px rgba(0,0,0,0.6);
+			-moz-box-shadow: inset 9px -11px 7px -11px rgba(119, 252, 24, 0.6);box-shadow: inset 9px -11px 7px 4px rgba(0,0,0,0.4);"></div>
+			<div id="pbar_innertext" style="font-size: 18px; color: white; z-index: 3; position: absolute; top: 0; left: 0; width: 100%; height: 100%; font-weight: thin; text-align: center; 
+			font-family: chineserocks;
+			src: url(chineserocks.ttf); margin-top: -31px;text-shadow: 2px 4px 6px rgba(38,38,38,0.89);">0%</div>
+			<div id="pbar_innertextperc" style="font-size: 18px; color: white; z-index: 4; position: absolute; top: 0; left: 0; width: 100%; height: 100%; font-weight: thin; text-align: right; 
+			font-family: chineserocks;
+			src: url(chineserocks.ttf); margin-top: 1px;display: none;justify-content: center;text-shadow: 2px 4px 6px rgba(38,38,38,0.89);">0%</div>
+		</div>
+	</div>
+
+</body>
+</html>

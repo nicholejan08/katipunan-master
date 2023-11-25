@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="100.222" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.017963" y="-0.0593298" z="-0.0149999" />
+      <bbMax x="0.250654" y="0.0600564" z="0.0192955" />
+      <bsCentre x="0.116346" y="0.000363301" z="0.00214779" />
+      <bsRadius value="0.147973" />
+      <hdTextureDist value="75.1665" />
+      <name>bone_claws</name>
+      <textureDictionary>bone_claws</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bone_claws</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>bone_claws</name>
+  <dependencies />
+  <compositeEntityTypes />
+</CMapTypes>

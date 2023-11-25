@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="683802624" />
+      <loadFlags value="683802624" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.1283633" y="-0.1493488" z="-0.0857967" />
+      <bbMax x="0.1295793" y="0.1476331" z="0.0735396" />
+      <bsCentre x="0.0006080" y="-0.0008579" z="-0.0061285" />
+      <bsRadius value="0.212203" />
+      <hdTextureDist value="60.0"/>
+      <name>nic_cap_helmet</name>
+      <textureDictionary>nic_cap_helmet</textureDictionary>
+      <physicsDictionary>nic_cap_helmet</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>nic_cap_helmet</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>nic_cap_helmet</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

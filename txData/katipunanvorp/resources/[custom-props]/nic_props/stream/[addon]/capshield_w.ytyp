@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="100" />
+      <flags value="12713984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0515995" y="-0.0515364" z="-0.005068" />
+      <bbMax x="0.0515785" y="0.0516394" z="0.006055" />
+      <bsCentre x="-1.04979e-05" y="5.14984e-05" z="0.0004935" />
+      <bsRadius value="0.0731688" />
+      <hdTextureDist value="75.0823" />
+      <name>capshield_w</name>
+      <textureDictionary>capshield_w</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>capshield_w</assetName>
+      <extensions />
+    </Item>
+  </archetypes>
+  <name>capshield_w</name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Nic</CreatedBy>
+</CMapTypes>

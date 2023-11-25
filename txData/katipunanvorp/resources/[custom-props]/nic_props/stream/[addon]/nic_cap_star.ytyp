@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500.00000000"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.0932402" y="-0.0111949" z="-0.0879440" />
+      <bbMax x="0.0932402" y="0.0111949" z="0.0879440" />
+      <bsCentre x="0.0000000" y="0.0000000" z="0.0000000" />
+      <bsRadius value="0.128659" />
+      <hdTextureDist value="100.0"/>
+      <name>nic_cap_star</name>
+      <textureDictionary>nic_cap_star</textureDictionary>
+      <physicsDictionary>nic_cap_star</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>nic_cap_star</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>nic_cap_star</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
